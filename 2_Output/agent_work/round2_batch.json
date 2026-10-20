@@ -1,0 +1,82 @@
+[
+ {
+  "ref_id": "4",
+  "paper_file": "0_Data/papers/ref4_Wisner_2013_PMID23487258.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "90",
+  "paper_file": "0_Data/papers/ref90_Snowber_2022_PMID35852270.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "91",
+  "paper_file": "0_Data/papers/ref91_Metz_2016_PMID27824771.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "95",
+  "paper_file": "0_Data/papers/ref95_Yonkers_2011_PMID21900825.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "110",
+  "paper_file": "0_Data/papers/ref110_Huybrechts_2015_PMID26034955.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "111",
+  "paper_file": "0_Data/papers/ref111_Yang_2017_PMID28570796.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "116",
+  "paper_file": "0_Data/papers/ref116_Hantsoo_2014_PMID24173623.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "120",
+  "paper_file": "0_Data/papers/ref120_Slee_2019_PMID30712879.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "129",
+  "paper_file": "0_Data/papers/ref129_Jentink_2010_PMID21127116.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "134",
+  "paper_file": "0_Data/papers/ref134_Toh_2013_PMID23389622.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "142",
+  "paper_file": "0_Data/papers/ref142_Santucci_2017_PMID28068465.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "173",
+  "paper_file": "0_Data/papers/ref173_Vancampfort_2015_PMID26407790.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "T2a",
+  "paper_file": "0_Data/papers/refT2a_Huybrechts_2014_PMID24941178.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "T2c",
+  "paper_file": "0_Data/papers/refT2c_Palmsten_2013_PMID23873072.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "T2d",
+  "paper_file": "0_Data/papers/refT2d_Wartko_2019_PMID31298445.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "T2f",
+  "paper_file": "0_Data/papers/refT2f_Palmsten_2013_PMID23965506.md",
+  "evidence_basis": "full_text"
+ }
+]

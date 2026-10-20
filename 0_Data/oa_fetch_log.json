@@ -1,0 +1,317 @@
+{
+ "74": [],
+ "75": [
+  {
+   "url": "http://www.cmaj.ca/content/cmaj/185/9/775.full.pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1503/cmaj.130403",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "76": [
+  {
+   "url": "http://europepmc.org/books/NBK553127",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK553127",
+   "status": "not a PDF (21330 bytes)"
+  }
+ ],
+ "78": [],
+ "1": [],
+ "81": [],
+ "86": [],
+ "87": [],
+ "88": [],
+ "92": [],
+ "93": [],
+ "94": [],
+ "96": [],
+ "52": [
+  {
+   "url": "http://europepmc.org/books/NBK570101",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK570101",
+   "status": "not a PDF (21330 bytes)"
+  }
+ ],
+ "58": [],
+ "59": [
+  {
+   "url": "https://pure.amsterdamumc.nl/en/publications/5c8176bc-a669-448e-aae0-1469790b6659",
+   "status": "not a PDF (40455 bytes)"
+  }
+ ],
+ "100": [
+  {
+   "url": "https://doi.org/10.1089/jwh.2011.3466",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "102": [
+  {
+   "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007954/pdf/full",
+   "status": "error: HTTP Error 412: Precondition Failed"
+  },
+  {
+   "url": "https://doi.org/10.1002/14651858.cd007954",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://discovery.dundee.ac.uk/en/publications/85b92403-d474-4e5a-b606-65f7e0f86575",
+   "status": "not a PDF (90965 bytes)"
+  }
+ ],
+ "103": [],
+ "104": [],
+ "105": [],
+ "108": [
+  {
+   "url": "http://www.ajog.org/article/S0002937818307099/pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "109": [],
+ "112": [],
+ "113": [],
+ "114": [],
+ "115": [],
+ "T2e": [],
+ "T2h": [],
+ "T2i": [
+  {
+   "url": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2566206/yoi160067.pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1001/jamapsychiatry.2016.2594",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.7916/893n-3a15",
+   "status": "not a PDF (4371 bytes)"
+  }
+ ],
+ "117": [],
+ "8": [],
+ "120": [
+  {
+   "url": "https://discovery.ucl.ac.uk/10070219/1/Freemantle_Slee_GAD_Meta_Text%20R1_20180627%20clean.pdf",
+   "status": "ok"
+  }
+ ],
+ "121": [],
+ "123": [
+  {
+   "url": "https://doi.org/10.1136/bmj.317.7162.839",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "124": [],
+ "126": [],
+ "127": [],
+ "128": [],
+ "130": [],
+ "131": [],
+ "133": [],
+ "135": [],
+ "136": [],
+ "137": [],
+ "138": [],
+ "140": [],
+ "141": [
+  {
+   "url": "https://ajp.psychiatryonline.org/doi/pdf/10.1176/appi.ajp.2015.15040506",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "143": [],
+ "144": [],
+ "145": [],
+ "146": [],
+ "147": [
+  {
+   "url": "https://doi.org/10.1001/jama.1992.03490060028010",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "148": [
+  {
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1528-1157.1997.tb01480.x",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1111/j.1528-1157.1997.tb01480.x",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://pure.eur.nl/en/publications/e7297f3e-1e0d-46f4-a1be-2ee0a1404bb0",
+   "status": "not a PDF (42128 bytes)"
+  },
+  {
+   "url": "http://hdl.handle.net/1765/5776",
+   "status": "not a PDF (33363 bytes)"
+  },
+  {
+   "url": "http://repub.eur.nl/pub/5776",
+   "status": "not a PDF (33363 bytes)"
+  },
+  {
+   "url": "http://hdl.handle.net/2066/24373",
+   "status": "error: The read operation timed out"
+  }
+ ],
+ "149": [],
+ "150": [],
+ "151": [],
+ "152": [],
+ "153": [],
+ "154": [],
+ "155": [],
+ "156": [
+  {
+   "url": "https://doi.org/10.1016/s0022-3476(83)80750-1",
+   "status": "not a PDF (2604 bytes)"
+  }
+ ],
+ "157": [],
+ "158": [
+  {
+   "url": "https://jmg.bmj.com/content/jmedgenet/24/11/692.full.pdf",
+   "status": "error: HTTP Error 404: Not Found"
+  },
+  {
+   "url": "https://doi.org/10.1136/jmg.24.11.692",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "http://jmg.bmjjournals.com/cgi/content/abstract/24/11/692",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "159": [
+  {
+   "url": "https://doi.org/10.5167/uzh-237871",
+   "status": "not a PDF (4434 bytes)"
+  }
+ ],
+ "160": [],
+ "161": [],
+ "162": [],
+ "163": [
+  {
+   "url": "https://jmg.bmj.com/content/jmedgenet/37/7/489.full.pdf",
+   "status": "error: HTTP Error 404: Not Found"
+  },
+  {
+   "url": "https://doi.org/10.1136/jmg.37.7.489",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "164": [],
+ "165": [
+  {
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8749.2001.tb00188.x",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1111/j.1469-8749.2001.tb00188.x",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "166": [],
+ "167": [
+  {
+   "url": "https://jnnp.bmj.com/content/jnnp/70/1/15.full.pdf",
+   "status": "error: HTTP Error 404: Not Found"
+  },
+  {
+   "url": "https://doi.org/10.1136/jnnp.70.1.15",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "168": [],
+ "169": [],
+ "170": [
+  {
+   "url": "https://adc.bmj.com/content/archdischild/69/3_Spec_No/288.full.pdf",
+   "status": "error: HTTP Error 404: Not Found"
+  },
+  {
+   "url": "https://doi.org/10.1136/adc.69.3_spec_no.288",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "171": [
+  {
+   "url": "https://fn.bmj.com/content/fetalneonatal/83/2/F124.full.pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1136/fn.83.2.f124",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "173": [
+  {
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.20252",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1002/wps.20252",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://kclpure.kcl.ac.uk/portal/en/publications/b867552c-3ba5-475f-a4cc-ef8de1d7b1dc",
+   "status": "not a PDF (61020 bytes)"
+  },
+  {
+   "url": "https://lirias.kuleuven.be/retrieve/4ebc557b-df99-4cf1-8922-6f0d8f1c4d52",
+   "status": "ok"
+  }
+ ],
+ "174": [],
+ "175": [
+  {
+   "url": "https://kclpure.kcl.ac.uk/portal/en/publications/efef2359-0c6b-4cef-a594-65c1ca19a4cc",
+   "status": "not a PDF (62605 bytes)"
+  }
+ ],
+ "176": [
+  {
+   "url": "https://www.sciencedirect.com/science/article/pii/S0022395622001376/pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.research.ed.ac.uk/files/257856856/1_s2.0_S0022395622001376_main.pdf",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1016/j.jpsychires.2022.03.013",
+   "status": "not a PDF (2749 bytes)"
+  },
+  {
+   "url": "https://www.research.ed.ac.uk/en/publications/b37479af-82b5-489b-977b-b76ad537d407",
+   "status": "not a PDF (53088 bytes)"
+  }
+ ],
+ "177": [],
+ "178": [
+  {
+   "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jum.15188",
+   "status": "error: HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://doi.org/10.1002/jum.15188",
+   "status": "error: HTTP Error 403: Forbidden"
+  }
+ ],
+ "179": [],
+ "181": [],
+ "49": []
+}

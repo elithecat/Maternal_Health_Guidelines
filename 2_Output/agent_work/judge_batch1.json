@@ -1,0 +1,342 @@
+[
+  {
+    "ref_id": "82",
+    "disputed_fields": [
+      "severity_adjustment",
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Other",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "Citation only; no abstract or methods, so neither a comparison nor any adjustment can be identified",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": null,
+    "final_sample_size_unit": "",
+    "final_n_studies": null,
+    "final_sample_size_detail": "Not available (citation only; not indexed in PubMed)",
+    "decision_by_field": {
+      "severity_adjustment": "Sided with rater1 and rater2 (Unclear): NA requires knowing the paper is not a non-randomized comparison, which a bare citation cannot show, so the protocol's default for an undeterminable field (Unclear) applies.",
+      "sibling_analysis_any": "Sided with rater1 and rater2 (Unclear): with no abstract or methods, presence or absence of a within-family analysis cannot be determined; rater3's No rests on an inference from the title."
+    },
+    "judge_rationale": "Coded from the citation only, per Amendment 1. The barriers/facilitators title suggests a qualitative, survey, or review paper but cannot confirm it, so the shared code Other stands and the dependent fields are Unclear.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Citation-only file: design, comparison, and N cannot be known from it. Getting the article would allow a real design code (likely Survey/qualitative or Narrative review), after which severity would become NA and sibling No."
+  },
+  {
+    "ref_id": "58",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – adjusted, incl. severity",
+    "final_severity_adjustment": "Yes",
+    "final_severity_measure": "PS matching on total SSRI exposure and 'maternal health characteristics'; authors state results are 'controlling for maternal illness severity', but the specific severity variables are not listed",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 119547,
+    "final_sample_size_unit": "infants",
+    "final_n_studies": null,
+    "final_sample_size_detail": "119547 = all linked neonatal birth records 1998-2001 (source population); sizes of the L14 and NL14 SSRI-exposed groups and of the matched analytic sample not given in abstract",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater3 (Unclear): in population-linked birth records mothers can contribute several births, and an abstract cannot show or rule out a within-mother sensitivity analysis, so the protocol default (Unclear) applies rather than No."
+    },
+    "judge_rationale": "Non-randomized comparison of SSRI exposure in the last 14 days vs exposure stopped earlier, using propensity-score matching. Study type and severity are copied from the unanimous raters; the severity call rests on the authors' statement plus 'total exposure' as the only named proxy.",
+    "judge_confidence": "Medium",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Abstract-only. (1) The undisputed incl.-severity/Yes code rests on an author claim. Under a strict reading of Amendment 1 ('only when the file shows it') it could be excl. severity/Unclear unless total SSRI exposure counts as a severity proxy, so check the full-text PS covariates. (2) N is the source population, not the matched sample. (3) Sibling is Unclear by the abstract-only rule."
+  },
+  {
+    "ref_id": "104",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – adjusted, excl. severity",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "Multivariable log-binomial model reported but covariates not listed; depressed comparison groups defined by diagnosis only (not severity)",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 41964,
+    "final_sample_size_unit": "women",
+    "final_n_studies": null,
+    "final_sample_size_detail": "41964 pregnant women delivering 1998-2002 (Quebec health administrative databases); exposure/comparison group sizes not reported in abstract",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater1 and rater2 (Unclear): Quebec administrative data allow repeat pregnancies per woman, and the abstract neither reports nor excludes a within-mother analysis."
+    },
+    "judge_rationale": "Adjusted non-randomized comparison (multivariable log-binomial RRs) with diagnosis-defined comparator groups. The covariate set is not visible, so Amendment 1(a) applies: excl. severity, with severity Unclear.",
+    "judge_confidence": "Medium",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: severity cannot be checked without the covariate list, and sibling status cannot be known from the abstract."
+  },
+  {
+    "ref_id": "111",
+    "disputed_fields": [
+      "study_type"
+    ],
+    "final_study_type": "Observational – adjusted, excl. severity",
+    "final_severity_adjustment": "No",
+    "final_severity_measure": "Logistic model for Finnegan signs adjusted for preterm birth, maternal race and age only; antepartum SIGH-ADS measured and compared descriptively but not entered in the outcome model; groups defined by mood-disorder diagnosis",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 214,
+    "final_sample_size_unit": "mother-infant pairs",
+    "final_n_studies": null,
+    "final_sample_size_detail": "41 SRI-exposed, 94 untreated mood disorder, 79 comparison (secondary analysis of 2 NIMH prospective cohorts)",
+    "decision_by_field": {
+      "study_type": "Sided with rater1 and rater3: Methods prespecify a multiple logistic regression with study group as predictor, and Results report the group effect after adjusting for preterm birth, race and age. The analysis is therefore not 'crude comparisons only', and code 4 is the first code that fits."
+    },
+    "judge_rationale": "The paper leads with crude chi-square comparisons, but it also runs a confounder-adjusted exposure-outcome model and states its conclusion 'after controlling for potential covariates'. Antepartum SIGH-ADS scores were available but not adjusted for, so the code is excl. severity.",
+    "judge_confidence": "Medium",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Design straddles codes 4 and 5. The displayed estimates are crude and the adjusted model is reported only in text ('results not shown'), so coding by the tables would give unadjusted/descriptive. The adjustment set also includes preterm birth, a likely mediator."
+  },
+  {
+    "ref_id": "T2e",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "ORs reported without any statement of adjustment (Amendment 1(b)); psychiatric-diagnosis comparison group defined by diagnosis only",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 56775,
+    "final_sample_size_unit": "pregnancies",
+    "final_n_studies": null,
+    "final_sample_size_detail": "15729 SSRI-exposed, 9652 unexposed with psychiatric diagnoses, 31394 unexposed without; sampling frame 845345 offspring (Finnish singleton live births 1996-2010)",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater1 and rater2 (Unclear): national register data with repeat pregnancies make a within-mother sensitivity analysis possible, and the abstract neither reports nor excludes one."
+    },
+    "judge_rationale": "National register birth cohort with diagnosis-defined comparison groups. The ORs are given without saying whether they are adjusted, so Amendment 1(b) applies: unadjusted/descriptive, severity Unclear, Low confidence.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: adjustment status, covariates, and any sibling analysis cannot be seen. Full text is needed to move this out of 'adjustment unclear'."
+  },
+  {
+    "ref_id": "T2i",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "HRs reported without any statement of adjustment (Amendment 1(b)); unmedicated comparator restricted to depression-related diagnoses (diagnosis only)",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 56340,
+    "final_sample_size_unit": "infants",
+    "final_n_studies": null,
+    "final_sample_size_detail": "15596 SSRI-exposed, 9537 unmedicated (maternal depression-related diagnoses), 31207 unexposed; sampling frame 845345 pregnant women (Finland 1996-2010)",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater3 (Unclear): this uses the same Finnish register design as T2e, where repeat births allow within-family contrasts. The abstract cannot exclude one, so No overstates what the file shows."
+    },
+    "judge_rationale": "Register birth cohort comparing SSRI-exposed with unmedicated offspring of mothers with depression-related diagnoses. The HR of 1.37 comes with no statement of adjustment, so Amendment 1(b) applies.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: adjustment status, covariates, and any sibling analysis cannot be seen."
+  },
+  {
+    "ref_id": "124",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – adjusted, excl. severity",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "Adjusted OR for malformations reported but covariates not listed; comparator is all births (no restriction by indication); no anxiety/insomnia severity measure shown",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 873879,
+    "final_sample_size_unit": "infants",
+    "final_n_studies": null,
+    "final_sample_size_detail": "1979 infants (1944 mothers) exposed in early pregnancy; 401 infants (390 mothers) exposed in late pregnancy; compared with all births in the Swedish Medical Birth Register (n=873879)",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater1 and rater2 (Unclear): the register visibly contains repeat births (1979 infants from 1944 mothers), so a within-mother analysis is feasible, and the abstract neither reports nor rules one out."
+    },
+    "judge_rationale": "Register cohort reporting an explicitly adjusted OR. The covariates are not available, so Amendment 1(a) applies: excl. severity, with severity Unclear.",
+    "judge_confidence": "Medium",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: the covariate list and any within-mother analysis cannot be seen. N is the all-births reference population."
+  },
+  {
+    "ref_id": "127",
+    "disputed_fields": [
+      "severity_adjustment"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "RRs of postpartum vs non-puerperal admission rates reported without stating whether adjusted or standardized (Amendment 1(b)); exposure is childbirth, not a treatment",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 1253,
+    "final_sample_size_unit": "admissions",
+    "final_n_studies": null,
+    "final_sample_size_detail": "1253 psychosis admissions within 91 days after delivery (Danish registers 1973-1993); denominators (deliveries/person-time) and non-puerperal comparison counts not given",
+    "decision_by_field": {
+      "severity_adjustment": "Sided with rater1 and rater3 (Unclear): the abstract reports relative risks but never says whether they are adjusted or standardized, which is exactly the Amendment 1(b) case. Rater2's No treats that silence as proof the analysis was crude."
+    },
+    "judge_rationale": "Registry comparison of psychosis-admission rates after childbirth vs in non-puerperal women. Adjustment status is not stated, so the code is unadjusted/descriptive with severity Unclear and Low confidence.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only; adjustment (e.g., age standardization) cannot be determined. N counts admissions, not a person-level denominator. Under the abstract-only sibling rule used for this batch's disputes, the undisputed sibling = No (copied) could arguably be Unclear."
+  },
+  {
+    "ref_id": "140",
+    "disputed_fields": [
+      "study_type"
+    ],
+    "final_study_type": "Pharmacokinetic/physiologic",
+    "final_severity_adjustment": "NA",
+    "final_severity_measure": "",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 1,
+    "final_sample_size_unit": "women",
+    "final_n_studies": null,
+    "final_sample_size_detail": "Single patient; serial lurasidone serum concentrations from second trimester to 3 months postpartum",
+    "decision_by_field": {
+      "study_type": "Sided with rater1 and rater2: the report's stated content is serial lurasidone serum concentrations and dose changes across pregnancy and postpartum, which fits code 8. Code 8 comes before code 9 in the protocol's first-fit order."
+    },
+    "judge_rationale": "Single-patient report whose core content is drug-level monitoring (0-4.7 ng/mL in pregnancy vs 10-12 ng/mL postpartum) and its dosing implications. PK takes precedence over case report under the decision order, although PubMed tags it Case Reports.",
+    "judge_confidence": "High",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Design genuinely straddles PK (8) and case report (9); the protocol's first-fit order settles it. Unit 'women' matches the PK code (rater3 used 'cases')."
+  },
+  {
+    "ref_id": "141",
+    "disputed_fields": [
+      "severity_adjustment"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "No",
+    "final_severity_measure": "Crude comparison: the reported OR 1.25 (95% CI 0.13-12.19) is exactly the crude OR and Woolf CI from the abstract's counts (3/214 exposed vs 1/89 controls); comparator restricted to women with psychiatric histories (diagnosis only)",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 303,
+    "final_sample_size_unit": "women",
+    "final_n_studies": null,
+    "final_sample_size_detail": "487 enrolled (353 SGA users, 134 comparison); 303 eligible for analysis: 214 first-trimester-exposed live births vs 89 controls (OR compares infants)",
+    "decision_by_field": {
+      "severity_adjustment": "Sided with rater2 (No): recomputing from the abstract's own counts (3/214 vs 1/89) gives exactly the reported OR and CI, so adjustment status can be determined (there was none). Amendment 1(b)'s 'not determinable' default therefore does not apply, and an analysis with no adjustment cannot have adjusted for severity."
+    },
+    "judge_rationale": "Prospective registry comparison of SGA-exposed vs unexposed infants of mothers with psychiatric illness. With 4 total events the OR is necessarily crude, and the arithmetic confirms it. Unit is women (majority; the abstract attaches 303 to women), though the OR compares infants.",
+    "judge_confidence": "High",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Minority-side call that reads Amendment 1(b) narrowly: adjustment status counts as determinable when the file's own counts reproduce the estimate. Confirm the team accepts this precedent. The copied sibling = No would arguably be Unclear under the abstract-only sibling rule."
+  },
+  {
+    "ref_id": "146",
+    "disputed_fields": [
+      "study_type"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "No abstract; whether any comparison was adjusted cannot be determined",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": null,
+    "final_sample_size_unit": "",
+    "final_n_studies": null,
+    "final_sample_size_detail": "Not reported in file (Lancet 1986 letter, metadata only)",
+    "decision_by_field": {
+      "study_type": "Sided with rater1 and rater3: the file's PubMed metadata ('Comparative Study; Letter') mark a comparative empirical report, and Amendment 1(b) assigns unadjusted/descriptive when adjustment status cannot be determined. Coding Other would discard the only design evidence in the file."
+    },
+    "judge_rationale": "Metadata-only file for a 1986 Lancet research letter tagged Comparative Study. Coded by the Amendment 1(b) default, with severity and sibling Unclear and N null.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] No abstract: design, comparator, adjustment, and N are all unknown, and the code rests only on the PubMed publication-type tag. The 2-page letter should be retrieved."
+  },
+  {
+    "ref_id": "148",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Systematic review/meta-analysis",
+    "final_severity_adjustment": "NA",
+    "final_severity_measure": "Not applicable under protocol (pooled analysis, code 7); abstract mentions matched nonepileptic controls but no epilepsy-severity measure",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 1379,
+    "final_sample_size_unit": "children",
+    "final_n_studies": 5,
+    "final_sample_size_detail": "1221 AED-exposed and 158 unexposed control children from 5 European prospective studies; headline exposed-vs-control RR uses 192 exposed vs 158 matched nonepileptic controls",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater2 (Unclear): this is an individual-level pooled reanalysis of prospective cohorts, not an aggregate meta-analysis, so mothers could contribute several pregnancies and a within-mother analysis is feasible. The abstract cannot rule one out."
+    },
+    "judge_rationale": "Pooled individual-level reanalysis of five prospective European studies, which the protocol places under code 7 (PubMed also tags it Meta-Analysis).",
+    "judge_confidence": "Medium",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only. This is functionally a pooled cohort analysis. Because code 7 forces severity = NA, the code hides that the headline RR compares AED-exposed children with nonepileptic controls (drug and epilepsy confounded). Sibling is Unclear by the abstract-only rule."
+  },
+  {
+    "ref_id": "152",
+    "disputed_fields": [
+      "severity_adjustment"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "Abstract shows crude incidences and dose correlations and says 'background factors' were studied, without saying whether drug estimates were adjusted or which factors (e.g., seizure type/frequency) were included",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 983,
+    "final_sample_size_unit": "offspring",
+    "final_n_studies": null,
+    "final_sample_size_detail": "983 offspring of mothers with epilepsy (Japan, Italy, Canada) analyzed prospectively; exposed/unexposed split not given",
+    "decision_by_field": {
+      "severity_adjustment": "Sided with rater1 and rater3 (Unclear): the displayed incidences are crude, but the abstract describes a risk-factor analysis of 'background factors' and attributes malformations 'primarily' to AEDs. A multivariable analysis may therefore exist, and its contents cannot be seen."
+    },
+    "judge_rationale": "Prospective multinational cohort comparing malformation incidence by AED exposure, regimen, dose and level. Adjustment status cannot be determined, so the code is unadjusted/descriptive with severity Unclear.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: it is unknown whether background factors (possibly including epilepsy severity) entered a multivariable model. The abstract mentions sibling malformation data, so the copied sibling = No is worth checking under the abstract-only sibling rule."
+  },
+  {
+    "ref_id": "167",
+    "disputed_fields": [
+      "sibling_analysis_any"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "Unclear",
+    "final_severity_measure": "ORs reported with no statement of adjustment (Amendment 1(b)); no seizure type/frequency or other epilepsy-severity measure mentioned",
+    "final_sibling_analysis_any": "Unclear",
+    "final_sample_size_n": 400,
+    "final_sample_size_unit": "children",
+    "final_n_studies": null,
+    "final_sample_size_detail": "1267 women approached, 721 responded, 330 with live births; 594 children, 400 school-age (150 monotherapy, 74 polytherapy, 176 unexposed)",
+    "decision_by_field": {
+      "sibling_analysis_any": "Sided with rater1 and rater2 (Unclear): 594 children from 330 mothers means many families contribute several children, so exposure-discordant sibling comparisons are possible. The abstract neither reports nor excludes them."
+    },
+    "judge_rationale": "Retrospective questionnaire-based comparison of exposed vs unexposed children with ORs. Adjustment is never stated, so Amendment 1(b) applies: unadjusted/descriptive, severity Unclear, Low confidence.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: adjustment status, covariates, and any within-family comparison cannot be seen. The family structure makes a sibling analysis plausible, so the full text is worth checking."
+  },
+  {
+    "ref_id": "171",
+    "disputed_fields": [
+      "study_type",
+      "severity_adjustment"
+    ],
+    "final_study_type": "Observational – unadjusted/descriptive",
+    "final_severity_adjustment": "NA",
+    "final_severity_measure": "No comparison group shown; only crude within-exposed correlations of maternal valproate dose/concentration with infant outcomes",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": 22,
+    "final_sample_size_unit": "infants",
+    "final_n_studies": null,
+    "final_sample_size_detail": "22 valproate-exposed term infants (20 VPA monotherapy, 2 VPA plus carbamazepine); 13 hypoglycaemic, 10 with withdrawal symptoms",
+    "decision_by_field": {
+      "study_type": "Sided with rater2 and rater3: this is a prospective exposure-defined cohort with systematic outcome measurement, an incidence estimate, and inferential dose-response correlations. That fits 'cohort ... purely descriptive' (code 5), which comes before case series (code 9) in the first-fit order.",
+      "severity_adjustment": "Sided with rater1 and rater2 (NA): the primary aim is to describe risk among exposed infants and no comparison group is shown, so this is not a non-randomized comparison. The within-exposed correlations are secondary."
+    },
+    "judge_rationale": "Exposed-only prospective study of 22 valproate-exposed infants describing hypoglycaemia and withdrawal, with crude correlations against maternal valproate levels. The final combination (code 5, NA) matches rater2's codes.",
+    "judge_confidence": "Low",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Straddles codes 5, 8 (drug-level correlations) and 9. The conclusion's 'significantly elevated risk' implies a comparator the abstract does not describe; if the full text has a control group, severity would become Unclear or No rather than NA."
+  },
+  {
+    "ref_id": "181",
+    "disputed_fields": [
+      "sample_size_n"
+    ],
+    "final_study_type": "Systematic review/meta-analysis",
+    "final_severity_adjustment": "NA",
+    "final_severity_measure": "",
+    "final_sibling_analysis_any": "No",
+    "final_sample_size_n": null,
+    "final_sample_size_unit": "infants",
+    "final_n_studies": 26,
+    "final_sample_size_detail": "26 of 604 reports included: lamotrigine 122 cases (12 reports), lithium 26 (5), carbamazepine 64 (5), valproate 9 (3), oxcarbazepine 2 (2); one report covered two drugs, so the per-drug sum (223) may double-count; no overall total stated",
+    "decision_by_field": {
+      "sample_size_n": "Sided with rater1 and rater3 (null): the protocol records pooled participants for reviews only 'if reported', and the abstract gives no total. Rater2's 223 is a derived sum that may double-count the report covering both carbamazepine and valproate."
+    },
+    "judge_rationale": "Systematic PubMed review of case reports, case series, and small observational studies of mood stabilizers in lactation, with no meta-analysis. The design is clear; only the pooled N is missing.",
+    "judge_confidence": "High",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: the full text may state a total pooled N; 223 is an upper bound from per-drug counts."
+  }
+]

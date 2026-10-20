@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+~$*.xlsx
+
+# Copyrighted material: kept locally, not redistributed in the public repo.
+# Regenerate with 1_Scripts/02_fetch_papers.py (and 07/08 for PDFs).
+ACOG*.pdf
+0_Data/acog_cpg5_text_by_column.txt
+0_Data/papers/
+0_Data/raw_xml/
+0_Data/oa_pdf/
+0_Data/manual_pdf/
+*.bundle

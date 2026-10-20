@@ -1,0 +1,363 @@
+[
+ {
+  "ref_id": "90",
+  "paper_file": "0_Data/papers/ref90_Snowber_2022_PMID35852270.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "No",
+   "severity_measure": "Propensity score included maternal age, insurance, parity, tobacco, substance use history, chronic medical condition, and presence of mental health history only; no severity measure (PHQ-9 used only to define positive screen)",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 4710,
+   "sample_size_unit": "individuals",
+   "sample_size_detail": "Pre-implementation 2286 (262 Black, 2024 White); post-implementation 2424 (313 Black, 2111 White); treatment-recommendation analyses restricted to positive screens (small subgroups)"
+  },
+  "rater_rationales": [
+   "Two delivery-date epochs before/after collaborative care model implementation without a concurrent control, so not quasi-experimental per protocol. Methods list propensity-score covariates; only presence of mental health history, no severity proxy.",
+   "Pre/post comparison without a concurrent unexposed control, so not quasi-experimental per protocol; PS adjustment includes only presence of mental health history. Restriction to PHQ-9 >9 for secondary outcome is restriction on screen-positive status, not severity adjustment.",
+   "Pre/post epoch comparison without a concurrent untreated control, so not quasi-experimental per protocol; propensity score covariate adjustment. Covariates include only 'any maternal chronic somatic medical problem or mental health history', with no severity measure."
+  ]
+ },
+ {
+  "ref_id": "95",
+  "paper_file": "0_Data/papers/ref95_Yonkers_2011_PMID21900825.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Number of lifetime depressive episodes before pregnancy (1/2/3/4+), depression onset before age 14, number of psychiatric hospitalizations for depression, major depressive episode in 6 months before pregnancy",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 778,
+   "sample_size_unit": "women",
+   "sample_size_detail": "Analytic sample 778 of 2793 interviewed; 130 used antidepressants during study period; 617 completed both follow-up interviews; 123 developed MDE"
+  },
+  "rater_rationales": [
+   "Adjusted Cox model includes prior episodes, early onset and psychiatric hospitalization, described as 'correlates of severe depressive illness', plus recent MDE. These are severity proxies under the protocol.",
+   "Adjusted Cox model includes severity correlates the authors name as markers of 'severe depressive illness' (prior episodes, early onset, psychiatric hospitalization).",
+   "Non-randomized comparison adjusted for pre-selected covariates the authors call 'correlates of severe depressive illness': prior episodes, hospitalization, onset age, recent MDE (Table 2)."
+  ]
+ },
+ {
+  "ref_id": "100",
+  "paper_file": "0_Data/papers/ref100_Ko_2012_PMID22691031.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "Unclear",
+   "severity_measure": "Adjusted prevalence ratios reported but covariates not listed in abstract; sample restricted to women meeting past-year MDE criteria (diagnosis only)",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 9032,
+   "sample_size_unit": "women",
+   "sample_size_detail": "375 pregnant and 8657 nonpregnant women with past-year MDE"
+  },
+  "rater_rationales": [
+   "Non-randomized comparison by pregnancy status with adjusted prevalence ratios (aPR); adjustment set unavailable in abstract, so severity Unclear and coded 4 by default.",
+   "Non-randomized comparison by pregnancy status with adjusted prevalence ratios (aPR); covariate set unavailable, so severity adjustment Unclear and coded as excl. severity by default.",
+   "Non-randomized comparison (pregnancy status) with 'adjusted prevalence ratios (aPR)'; adjustment set not described in the abstract, so severity is Unclear and coded as excl. severity by default."
+  ]
+ },
+ {
+  "ref_id": "110",
+  "paper_file": "0_Data/papers/ref110_Huybrechts_2015_PMID26034955.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Number of outpatient and inpatient depression diagnoses (labelled 'proxies for depression severity'); also other psychotropic drugs and health care use",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 739114,
+   "sample_size_unit": "pregnancies",
+   "sample_size_detail": "Depression-restricted cohort used for primary adjusted estimates: 657515 unexposed, 65316 SSRI, 16283 non-SSRI; full eligible cohort 3789330 pregnancies (102179 SSRI, 26771 non-SSRI)"
+  },
+  "rater_rationales": [
+   "PS model included 'proxies for depression severity (number of outpatient and inpatient depression diagnoses)' within a depression-restricted cohort. N reported for the depression-restricted analytic cohort rather than the 3789330 source cohort.",
+   "PS model covariates explicitly include 'proxies for depression severity (number of outpatient and inpatient depression diagnoses)' within a depression-restricted cohort.",
+   "PS model includes 'proxies for depression severity (number of outpatient and inpatient depression diagnoses)'; main adjusted ORs come from the depression-restricted cohort with PS/hdPS stratification."
+  ]
+ },
+ {
+  "ref_id": "115",
+  "paper_file": "0_Data/papers/ref115_OHara_2019_PMID30447565.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "RCT",
+   "severity_adjustment": "NA",
+   "severity_measure": "RCT",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 162,
+   "sample_size_unit": "women",
+   "sample_size_detail": "162 randomized; number analyzed not reported in abstract"
+  },
+  "rater_rationales": [
+   "Women 'were randomly assigned to IPT, sertraline-clinical management (CM), or pill placebo-CM'.",
+   "Abstract states participants 'were randomly assigned' to three arms.",
+   "Women 'were randomly assigned to IPT, sertraline-clinical management (CM), or pill placebo-CM'; PubMed type Randomized Controlled Trial."
+  ]
+ },
+ {
+  "ref_id": "116",
+  "paper_file": "0_Data/papers/ref116_Hantsoo_2014_PMID24173623.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "RCT",
+   "severity_adjustment": "NA",
+   "severity_measure": "",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 36,
+   "sample_size_unit": "women",
+   "sample_size_detail": "38 entered placebo lead-in, 2 removed; 36 randomized (17 sertraline, 19 placebo) = ITT; 33 evaluable; 29 completed week 7; strict DSM-IV onset subset 27 (ITT)"
+  },
+  "rater_rationales": [
+   "Randomized double-blind placebo-controlled trial; abstract's n=38 counts lead-in entrants, while Results give 36 randomized.",
+   "Randomized double-blind placebo-controlled trial; full text gives 36 randomized after lead-in.",
+   "'A total of 17 women were randomized to the sertraline group and 19 ... to placebo'; primary analysis compared response rates in the ITT sample (n = 36)."
+  ]
+ },
+ {
+  "ref_id": "T2a",
+  "paper_file": "0_Data/papers/refT2a_Huybrechts_2014_PMID24941178.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Number of outpatient and inpatient depression diagnoses (explicit depression-severity proxies) in the propensity score, plus other psychotropic medications and other antidepressant indications",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 949504,
+   "sample_size_unit": "pregnancies",
+   "sample_size_detail": "Full cohort 949504 pregnancies (64389 antidepressant-exposed, 885115 unexposed); fully adjusted depression-restricted SSRI analysis 36778 SSRI-exposed vs 180564 unexposed (217342)"
+  },
+  "rater_rationales": [
+   "Primary fully adjusted analysis restricts to depression and uses PS stratification including 'proxies for depression severity'. Study type and severity coding are clear. Confidence is Medium only because N could be the full cohort (949504) or the depression-restricted analytic set.",
+   "The PS includes 'proxies for depression severity (number of outpatient and inpatient depression diagnoses)' within a depression-restricted cohort.",
+   "PS stratification within depression-restricted cohort explicitly controls 'proxies for depression severity' (counts of outpatient/inpatient depression diagnoses). No sibling analysis."
+  ]
+ },
+ {
+  "ref_id": "T2c",
+  "paper_file": "0_Data/papers/refT2c_Palmsten_2013_PMID23873072.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Number of outpatient (0, 1, 2-4, 5-9, >=10) and inpatient (0, 1, >=2) depression diagnoses, explicitly labeled depression-severity proxies",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 85767,
+   "sample_size_unit": "pregnancies",
+   "sample_size_detail": "100942 women with depression; 15175 first-trimester-only antidepressant users excluded from primary analysis; 59219 unexposed, 19000 SSRI, 1216 SNRI, 441 TCA, 2622 bupropion, 647 other, 2622 polytherapy (paper labels units as women; GEE accounts for multiple pregnancies)"
+  },
+  "rater_rationales": [
+   "Restricted to depression and adjusted for numbers of outpatient and inpatient depression diagnoses, described as 'proxies of depression severity'. Analytic N summed from Table 2 groups.",
+   "Fully adjusted models include 'proxies of depression severity' (counts of outpatient/inpatient depression diagnoses) in a depression-restricted cohort.",
+   "Models adjusted for 'depression-severity proxies' (counts of outpatient/inpatient depression diagnoses) within a depression-restricted cohort. Primary-analysis N derived from Table 1 group counts."
+  ]
+ },
+ {
+  "ref_id": "T2d",
+  "paper_file": "0_Data/papers/refT2d_Wartko_2019_PMID31298445.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "IPTW included prior-year psychiatry visits, psychotherapy visits, inpatient psychiatric hospitalization, psychotropic fills (antipsychotic, benzodiazepine, mood stabilizer), and mental health diagnoses; PHQ-9 described but not modeled",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 2845,
+   "sample_size_unit": "births",
+   "sample_size_detail": "1634 continuers, 1211 discontinuers; blood glucose subanalysis 1101 births (613/488); about 4% missing covariates excluded from regression"
+  },
+  "rater_rationales": [
+   "Methods and Table 1 show IPTW covariates included psychiatric hospitalization, psychiatry visits, and psychotropic fills, all severity proxies; GEE handles repeat births and is not a sibling contrast.",
+   "IPTW adjustment set explicitly includes 'indicators of mental health severity' such as psychiatric hospitalization and mental health care utilization. Unit is births (7% of women contributed >1 birth).",
+   "IPTW accounted for 'mental health conditions and indicators of mental health severity'. Table 1 covariates include inpatient psychiatric hospitalization, psychiatry visits, and other psychotropic fills. GEE accounted for repeat births but there was no sibling contrast."
+  ]
+ },
+ {
+  "ref_id": "T2f",
+  "paper_file": "0_Data/papers/refT2f_Palmsten_2013_PMID23965506.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Number of outpatient (0,1,2–5,6–9,>=10) and inpatient (0,1,>=2) mood/anxiety disorder diagnoses, labelled 'proxies of mood/anxiety disorder severity'",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 102722,
+   "sample_size_unit": "women",
+   "sample_size_detail": "106000 mood/anxiety subcohort minus 3278 polytherapy = 102722 analysed (69044 unexposed; 29222 SRI monotherapy, 12710 current; 4456 non-SRI monotherapy, 1495 current); source 2759414 pregnancies"
+  },
+  "rater_rationales": [
+   "Models adjusted for 'indicators of severity of mood/anxiety disorder' (numbers of outpatient/inpatient diagnoses) within a diagnosis-restricted cohort; robust variances for repeat pregnancies, no sibling contrast.",
+   "Fully adjusted models include 'proxies of mood/anxiety disorder severity' (outpatient and inpatient diagnosis counts) in a diagnosis-restricted cohort.",
+   "Fully adjusted models include 'proxies of mood/anxiety disorder severity' (counts of outpatient and inpatient diagnoses) within a cohort restricted to mood/anxiety disorders."
+  ]
+ },
+ {
+  "ref_id": "129",
+  "paper_file": "0_Data/papers/ref129_Jentink_2010_PMID21127116.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "No",
+   "severity_measure": "Adjusted only for maternal age, year of birth, and reporting registry; no epilepsy type or seizure measures (authors note no other confounder data available)",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 93436,
+   "sample_size_unit": "registrations",
+   "sample_size_detail": "Case-control: 11790 cases (5 malformation subgroups), 69883 non-chromosomal controls, 11763 chromosomal controls; 131 carbamazepine-monotherapy-exposed registrations. SR component: 8 cohort studies, 2680 CBZ-exposed pregnancies (not counted here)"
+  },
+  "rater_rationales": [
+   "Main confirmatory estimates (e.g., spina bifida aOR 2.6) come from the adjusted case-control analysis, which precedes SR in the decision order; SR component only generated hypotheses. Adjustment set lacks any severity measure.",
+   "Hypothesis-testing primary analysis is the adjusted case-control study (the review only generated indications), so coded observational rather than SR. Covariates limited to maternal age, birth year, registry; no epilepsy severity.",
+   "Coded on the hypothesis-testing case-control analysis, which yields the main ORs; the review of 8 cohort studies only generated 'indications' to test. ORs 'adjusted for year of birth and maternal age' (plus registry), with no severity measure. Medium confidence because the paper is also indexed as a Systematic Review."
+  ]
+ },
+ {
+  "ref_id": "136",
+  "paper_file": "0_Data/papers/ref136_Calabrese_2005_PMID15994719.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "RCT",
+   "severity_adjustment": "NA",
+   "severity_measure": "",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 542,
+   "sample_size_unit": "participants",
+   "sample_size_detail": "542 randomized (360 bipolar I, 182 bipolar II); analyzed N not given in abstract"
+  },
+  "rater_rationales": [
+   "Participants 'randomly assigned' to quetiapine doses or placebo; PubMed type Randomized Controlled Trial.",
+   "Patients randomly assigned to quetiapine or placebo; PubMed type RCT.",
+   "'Five hundred forty-two outpatients ... were randomly assigned' to quetiapine or placebo."
+  ]
+ },
+ {
+  "ref_id": "137",
+  "paper_file": "0_Data/papers/ref137_Thase_2006_PMID17110817.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "RCT",
+   "severity_adjustment": "NA",
+   "severity_measure": "",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 509,
+   "sample_size_unit": "participants",
+   "sample_size_detail": "509 randomized; 59% completed; primary analysis ANCOVA with LOCF"
+  },
+  "rater_rationales": [
+   "Abstract: 'Of 509 patients randomized'; double-blind placebo-controlled trial.",
+   "Randomized double-blind placebo-controlled trial; 509 randomized.",
+   "'Of 509 patients randomized, 59% completed the study'; double-blind placebo-controlled RCT."
+  ]
+ },
+ {
+  "ref_id": "138",
+  "paper_file": "0_Data/papers/ref138_Young_2010_PMID20122369.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "RCT",
+   "severity_adjustment": "NA",
+   "severity_measure": "",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 802,
+   "sample_size_unit": "participants",
+   "sample_size_detail": "Randomized: quetiapine 300 mg n=265, quetiapine 600 mg n=268, lithium n=136, placebo n=133"
+  },
+  "rater_rationales": [
+   "802 patients 'randomly allocated' to four arms; registered trial NCT00206141.",
+   "Patients randomly allocated to four arms; PubMed type RCT.",
+   "'802 patients ... were randomly allocated' to quetiapine, lithium, or placebo."
+  ]
+ },
+ {
+  "ref_id": "142",
+  "paper_file": "0_Data/papers/ref142_Santucci_2017_PMID28068465.md",
+  "unanimous_codes": {
+   "evidence_basis": "full_text",
+   "study_type": "Observational – adjusted, incl. severity",
+   "severity_adjustment": "Yes",
+   "severity_measure": "Maternal SIGH-ADS (Hamilton depression with atypical supplement) and Mania Rating Scale scores entered Models II and III",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 197,
+   "sample_size_unit": "mother-infant pairs",
+   "sample_size_detail": "197 dyads: 54 BD+, 27 BD−, 116 nonexposed; attrition over 52 weeks"
+  },
+  "rater_rationales": [
+   "Model II 'added SIGH-ADS and MRS scores' to control for symptomatology. Note that the abstract's headline P values come from the unadjusted Model I.",
+   "Non-randomized exposure comparison; Model II 'added SIGH-ADS and MRS scores' to control baseline symptomatology, though the abstract emphasizes the unadjusted model.",
+   "Models II–III adjust for SIGH-ADS and MRS symptom scores. The abstract's headline motor-quality result comes from unadjusted Model I and became nonsignificant (P=.0529) after symptom adjustment."
+  ]
+ },
+ {
+  "ref_id": "145",
+  "paper_file": "0_Data/papers/ref145_Jäger-Roman_1986_PMID3086531.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "Unclear",
+   "severity_measure": "Matched-pair controls but matching variables not given in abstract; no seizure type/frequency measure mentioned",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 168,
+   "sample_size_unit": "infants",
+   "sample_size_detail": "14 VPA-monotherapy and 12 VPA-combination-exposed infants; 26 matched-pair controls; 116 additional controls"
+  },
+  "rater_rationales": [
+   "Comparative prospective cohort with matched controls (matching counts as adjustment), but matching factors are unknown from abstract, so adjustment and severity cannot be verified.",
+   "Comparison with matched controls (matching counts as adjustment), but matching factors and any other adjustment unknown from abstract; comparisons otherwise appear crude.",
+   "Exposed infants were compared with '26 matched-pair controls and 116 controls', so the design involves matching (coded adjusted); matching factors and any severity measure can't be determined from the abstract."
+  ]
+ },
+ {
+  "ref_id": "150",
+  "paper_file": "0_Data/papers/ref150_Samrén_1999_PMID10553991.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "Unclear",
+   "severity_measure": "Controls described as 'matched' but matching factors and any other adjustment not listed; no seizure type/frequency mentioned",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 3411,
+   "sample_size_unit": "infants",
+   "sample_size_detail": "1411 AED-exposed children + 2000 nonepileptic matched controls"
+  },
+  "rater_rationales": [
+   "Relative risks by AED regimen against matched controls; matching counts as adjustment but covariates unstated, so severity Unclear.",
+   "Matched-control cohort counts as adjusted (matching), but covariate set is unavailable and the comparator lacks the indication.",
+   "Non-randomized comparison using 'nonepileptic matched controls', so some matching-based adjustment; matching variables and any severity measures cannot be determined from the abstract."
+  ]
+ },
+ {
+  "ref_id": "154",
+  "paper_file": "0_Data/papers/ref154_Rodríguez-Pinilla_2000_PMID10706358.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "Unclear",
+   "severity_measure": "OR 'after controlling for potential confounder factors' but factors not listed; no epilepsy severity mentioned",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 44231,
+   "sample_size_unit": "infants",
+   "sample_size_detail": "22294 malformed infants + 21937 controls with AED data; 57 cases and 10 controls VPA-exposed; limb-deficiency case count for the OR not given"
+  },
+  "rater_rationales": [
+   "Case-control design with confounder-adjusted OR (6.17) for limb deficiencies; covariate list unavailable.",
+   "Adjusted case-control analysis, but covariates are not reported in the file.",
+   "Case-control analysis yielding OR 6.17 'after controlling for potential confounder factors'; adjustment exists but covariate list is unavailable."
+  ]
+ },
+ {
+  "ref_id": "175",
+  "paper_file": "0_Data/papers/ref175_Wang_2021_PMID33243714.md",
+  "unanimous_codes": {
+   "evidence_basis": "abstract_only",
+   "study_type": "Observational – adjusted, excl. severity",
+   "severity_adjustment": "Unclear",
+   "severity_measure": "PS fine-stratification weighting used, but covariates not listed in abstract; restriction to prior antipsychotic users is not itself a severity measure",
+   "sibling_analysis_any": "No",
+   "sample_size_n": 3114,
+   "sample_size_unit": "women",
+   "sample_size_detail": "2351 in THIN and 763 in CDARS (first pregnancies); continuer/discontinuer split not in abstract; meta-analysis N not reported"
+  },
+  "rater_rationales": [
+   "Primary aim and estimates come from PS-weighted cohort analyses, so coded observational rather than meta-analysis; adjustment set unavailable in abstract.",
+   "Primary analysis is the PS-weighted cohort comparison (meta-analysis is an add-on update). Severity adjustment cannot be confirmed without covariate list.",
+   "Primary analysis is the cohort comparison using 'Propensity Score fine-stratification weighting'; covariates are not listed in the abstract, so severity is Unclear and coded excl. severity by default. Restricting to first pregnancies rules out a within-mother comparison."
+  ]
+ }
+]

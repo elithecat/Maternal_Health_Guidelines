@@ -1,0 +1,212 @@
+[
+ {
+  "ref_id": "8",
+  "paper_file": "0_Data/papers/ref8_Mitte_2005_PMID16187860.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "75",
+  "paper_file": "0_Data/papers/ref75_Joffres_2013_PMID23670157.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "77",
+  "paper_file": "0_Data/papers/ref77_Royal_nd.md",
+  "evidence_basis": "citation_only"
+ },
+ {
+  "ref_id": "82",
+  "paper_file": "0_Data/papers/ref82_Byatt_2012.md",
+  "evidence_basis": "citation_only"
+ },
+ {
+  "ref_id": "84",
+  "paper_file": "0_Data/papers/ref84_UMass_nd.md",
+  "evidence_basis": "citation_only"
+ },
+ {
+  "ref_id": "88",
+  "paper_file": "0_Data/papers/ref88_Taouk_2018_PMID28770341.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "90",
+  "paper_file": "0_Data/papers/ref90_Snowber_2022_PMID35852270.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "96",
+  "paper_file": "0_Data/papers/ref96_Byatt_2016_PMID27079616.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "100",
+  "paper_file": "0_Data/papers/ref100_Ko_2012_PMID22691031.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "101",
+  "paper_file": "0_Data/papers/ref101_Cipriani_2018_PMID29477251.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "108",
+  "paper_file": "0_Data/papers/ref108_Masarwa_2019_PMID30170040.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "114",
+  "paper_file": "0_Data/papers/ref114_McDonagh_2014_PMID25004304.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "116",
+  "paper_file": "0_Data/papers/ref116_Hantsoo_2014_PMID24173623.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "120",
+  "paper_file": "0_Data/papers/ref120_Slee_2019_PMID30712879.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "125",
+  "paper_file": "0_Data/papers/ref125_Clark_2018_PMID30092918.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "127",
+  "paper_file": "0_Data/papers/ref127_Terp_1998_PMID9828994.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "129",
+  "paper_file": "0_Data/papers/ref129_Jentink_2010_PMID21127116.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "130",
+  "paper_file": "0_Data/papers/ref130_Karanam_2018_PMID30168175.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "131",
+  "paper_file": "0_Data/papers/ref131_Pennell_2004_PMID14745072.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "133",
+  "paper_file": "0_Data/papers/ref133_Tran_2002_PMID12136066.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "135",
+  "paper_file": "0_Data/papers/ref135_Newport_2007_PMID17671284.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "136",
+  "paper_file": "0_Data/papers/ref136_Calabrese_2005_PMID15994719.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "137",
+  "paper_file": "0_Data/papers/ref137_Thase_2006_PMID17110817.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "138",
+  "paper_file": "0_Data/papers/ref138_Young_2010_PMID20122369.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "139",
+  "paper_file": "0_Data/papers/ref139_Fornaro_2017_PMID28573138.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "140",
+  "paper_file": "0_Data/papers/ref140_Montiel_2022_PMID34291994.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "145",
+  "paper_file": "0_Data/papers/ref145_J\u00e4ger-Roman_1986_PMID3086531.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "146",
+  "paper_file": "0_Data/papers/ref146_Lindhout_1986_PMID2872511.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "152",
+  "paper_file": "0_Data/papers/ref152_Kaneko_1999_PMID10094426.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "155",
+  "paper_file": "0_Data/papers/ref155_Dalens_1980_PMID6772753.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "158",
+  "paper_file": "0_Data/papers/ref158_Winter_1987_PMID3123693.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "162",
+  "paper_file": "0_Data/papers/ref162_Williams_1997_PMID9344057.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "166",
+  "paper_file": "0_Data/papers/ref166_Gaily_1990_PMID2113015.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "169",
+  "paper_file": "0_Data/papers/ref169_Mountain_1970_PMID4189292.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "172",
+  "paper_file": "0_Data/papers/ref172_Bak_2014_PMID24763306.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "173",
+  "paper_file": "0_Data/papers/ref173_Vancampfort_2015_PMID26407790.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "175",
+  "paper_file": "0_Data/papers/ref175_Wang_2021_PMID33243714.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "176",
+  "paper_file": "0_Data/papers/ref176_Wilson_2022_PMID35320739.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "177",
+  "paper_file": "0_Data/papers/ref177_Fornaro_2020_PMID31623458.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "180",
+  "paper_file": "0_Data/papers/ref180_Clark_2022_PMID35620848.md",
+  "evidence_basis": "full_text"
+ },
+ {
+  "ref_id": "181",
+  "paper_file": "0_Data/papers/ref181_Uguz_2016_PMID27297617.md",
+  "evidence_basis": "abstract_only"
+ },
+ {
+  "ref_id": "T2d",
+  "paper_file": "0_Data/papers/refT2d_Wartko_2019_PMID31298445.md",
+  "evidence_basis": "full_text"
+ }
+]

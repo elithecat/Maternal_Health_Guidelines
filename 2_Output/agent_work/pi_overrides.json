@@ -1,0 +1,6 @@
+{
+ "T2a": {"sample_size_n": 217342,
+         "sample_size_detail": "Main estimate (fully adjusted, depression-restricted, PS-stratified SSRI analysis): 36,778 SSRI-exposed vs 180,564 unexposed pregnancies with depression. Source cohort: 949,504 pregnancies.",
+         "_reason": "Amendment 2.2 (PI decision 2026-10-13): N = analytic sample behind the main estimate; the judge's spot-check identified this.",
+         "_source": "PI rule + judge spot-check"}
+}

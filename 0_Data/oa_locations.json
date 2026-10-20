@@ -1,0 +1,1568 @@
+{
+ "74": {
+  "pmid": "26813211",
+  "doi": "10.1001/jama.2015.18392",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "75": {
+  "pmid": "23670157",
+  "doi": "10.1503/cmaj.130403",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "http://www.cmaj.ca/content/cmaj/185/9/775.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC3680556",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "http://www.cmaj.ca/content/cmaj/185/9/775.full.pdf",
+   "https://doi.org/10.1503/cmaj.130403",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/3680556",
+   "https://europepmc.org/articles/PMC3680556",
+   "https://europepmc.org/articles/PMC3680556?pdf=render"
+  ]
+ },
+ "76": {
+  "pmid": "31990493",
+  "doi": null,
+  "full_text_status": "NCBI Bookshelf report (NBK553127); not in PMC",
+  "openalex": {},
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "http://europepmc.org/books/NBK553127",
+   "https://www.ncbi.nlm.nih.gov/books/NBK553127"
+  ]
+ },
+ "78": {
+  "pmid": "30559120",
+  "doi": "10.1542/peds.2018-3259",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {},
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "1": {
+  "pmid": "37486660",
+  "doi": "10.1097/AOG.0000000000005200",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "81": {
+  "pmid": "12738146",
+  "doi": "10.1016/s0029-7844(03)00171-6",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "86": {
+  "pmid": "19185342",
+  "doi": "10.1016/S0140-6736(09)60046-5",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "87": {
+  "pmid": "15169695",
+  "doi": "10.1176/appi.ajp.161.6.1066",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "88": {
+  "pmid": "28770341",
+  "doi": "10.1007/s00737-017-0760-7",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "92": {
+  "pmid": "20636190",
+  "doi": "10.3109/00048671003705441",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "93": {
+  "pmid": "23566335",
+  "doi": "10.1016/j.jad.2013.02.040",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "94": {
+  "pmid": "16449615",
+  "doi": "10.1001/jama.295.5.499",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "96": {
+  "pmid": "27079616",
+  "doi": "10.1016/j.genhosppsych.2016.03.002",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "52": {
+  "pmid": "33950611",
+  "doi": null,
+  "full_text_status": "NCBI Bookshelf report (NBK570101); not in PMC",
+  "openalex": {},
+  "europepmc": {
+   "isOpenAccess": "Y",
+   "inEPMC": "Y",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "http://europepmc.org/books/NBK570101",
+   "https://www.ncbi.nlm.nih.gov/books/NBK570101"
+  ]
+ },
+ "58": {
+  "pmid": "19878137",
+  "doi": "10.1111/j.1600-0447.2009.01490.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "59": {
+  "pmid": "25559357",
+  "doi": "10.1111/apa.12921",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://pure.amsterdamumc.nl/en/publications/5c8176bc-a669-448e-aae0-1469790b6659"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://pure.amsterdamumc.nl/en/publications/5c8176bc-a669-448e-aae0-1469790b6659"
+  ]
+ },
+ "100": {
+  "pmid": "22691031",
+  "doi": "10.1089/jwh.2011.3466",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4416220"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC4416220",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/4416220",
+   "https://europepmc.org/articles/PMC4416220",
+   "https://europepmc.org/articles/PMC4416220?pdf=render",
+   "https://doi.org/10.1089/jwh.2011.3466"
+  ]
+ },
+ "102": {
+  "pmid": "19588448",
+  "doi": "10.1002/14651858.CD007954",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007954/pdf/full"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC10576545",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007954/pdf/full",
+   "https://doi.org/10.1002/14651858.cd007954",
+   "https://discovery.dundee.ac.uk/en/publications/85b92403-d474-4e5a-b606-65f7e0f86575",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10576545/pdf/CD007954.pdf",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/10576545",
+   "https://europepmc.org/articles/PMC10576545",
+   "https://europepmc.org/articles/PMC10576545?pdf=render"
+  ]
+ },
+ "103": {
+  "pmid": "27037844",
+  "doi": "10.1002/cpt.375",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "104": {
+  "pmid": "27031036",
+  "doi": "10.1097/EDE.0000000000000484",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "105": {
+  "pmid": "22147715",
+  "doi": "10.7326/0003-4819-155-11-201112060-00009",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "108": {
+  "pmid": "30170040",
+  "doi": "10.1016/j.ajog.2018.08.030",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "http://www.ajog.org/article/S0002937818307099/pdf"
+  ]
+ },
+ "109": {
+  "pmid": "30407100",
+  "doi": "10.1089/jwh.2018.7319",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "112": {
+  "pmid": "23656856",
+  "doi": "10.4088/JCP.12r07967",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "113": {
+  "pmid": "15900008",
+  "doi": "10.1001/jama.293.19.2372",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "114": {
+  "pmid": "25004304",
+  "doi": "10.1097/AOG.0000000000000410",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "115": {
+  "pmid": "30447565",
+  "doi": "10.1016/j.jad.2018.10.361",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "T2e": {
+  "pmid": "26238606",
+  "doi": "10.1176/appi.ajp.2015.14121575",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "T2h": {
+  "pmid": "34486740",
+  "doi": "10.1111/acps.13367",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "T2i": {
+  "pmid": "27732704",
+  "doi": "10.1001/jamapsychiatry.2016.2594",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2566206/yoi160067.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2566206/yoi160067.pdf",
+   "https://doi.org/10.1001/jamapsychiatry.2016.2594",
+   "https://doi.org/10.7916/893n-3a15"
+  ]
+ },
+ "117": {
+  "pmid": "31323375",
+  "doi": "10.1016/j.psychres.2019.07.006",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "8": {
+  "pmid": "16187860",
+  "doi": "10.1037/0033-2909.131.5.785",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "120": {
+  "pmid": "30712879",
+  "doi": "10.1016/S0140-6736(18)31793-8",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://discovery.ucl.ac.uk/10070219/1/Freemantle_Slee_GAD_Meta_Text%20R1_20180627%20clean.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://discovery.ucl.ac.uk/10070219/1/Freemantle_Slee_GAD_Meta_Text%20R1_20180627%20clean.pdf",
+   "https://discovery.ucl.ac.uk/id/eprint/10070219/"
+  ]
+ },
+ "121": {
+  "pmid": "29803818",
+  "doi": "10.1016/j.ajog.2018.05.017",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "123": {
+  "pmid": "9748174",
+  "doi": "10.1136/bmj.317.7162.839",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/31092"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC31092",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/31092",
+   "https://europepmc.org/articles/PMC31092",
+   "https://europepmc.org/articles/PMC31092?pdf=render",
+   "https://doi.org/10.1136/bmj.317.7162.839"
+  ]
+ },
+ "124": {
+  "pmid": "17894421",
+  "doi": "10.1002/pds.1457",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "126": {
+  "pmid": "32160423",
+  "doi": "10.4088/JCP.19r12906",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://www.scopus.com/pages/publications/85081928569"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://www.scopus.com/pages/publications/85081928569"
+  ]
+ },
+ "127": {
+  "pmid": "9828994",
+  "doi": "10.1192/bjp.172.6.521",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "128": {
+  "pmid": "15625205",
+  "doi": "10.1176/appi.ajp.162.1.79",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "130": {
+  "pmid": "30168175",
+  "doi": "10.1002/ana.25321",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "131": {
+  "pmid": "14745072",
+  "doi": "10.1212/01.wnl.0000103286.47129.f8",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "133": {
+  "pmid": "12136066",
+  "doi": "10.1212/wnl.59.2.251",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "135": {
+  "pmid": "17671284",
+  "doi": "10.1176/appi.ajp.2007.06111886",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "136": {
+  "pmid": "15994719",
+  "doi": "10.1176/appi.ajp.162.7.1351",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "137": {
+  "pmid": "17110817",
+  "doi": "10.1097/01.jcp.0000248603.76231.b7",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "138": {
+  "pmid": "20122369",
+  "doi": "10.4088/JCP.08m04995gre",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "140": {
+  "pmid": "34291994",
+  "doi": "10.1037/pha0000509",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "141": {
+  "pmid": "26441156",
+  "doi": "10.1176/appi.ajp.2015.15040506",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://ajp.psychiatryonline.org/doi/pdf/10.1176/appi.ajp.2015.15040506"
+  ]
+ },
+ "143": {
+  "pmid": "29189693",
+  "doi": "10.1097/AOG.0000000000002412",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "144": {
+  "pmid": "25389654",
+  "doi": "10.1097/HCO.0000000000000124",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "145": {
+  "pmid": "3086531",
+  "doi": "10.1016/s0022-3476(86)80949-0",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "146": {
+  "pmid": "2872511",
+  "doi": "10.1016/s0140-6736(86)91711-3",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "147": {
+  "pmid": "1614388",
+  "doi": null,
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://doi.org/10.1001/jama.1992.03490060028010"
+  ]
+ },
+ "148": {
+  "pmid": "9579936",
+  "doi": "10.1111/j.1528-1157.1997.tb01480.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1528-1157.1997.tb01480.x"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1528-1157.1997.tb01480.x",
+   "https://doi.org/10.1111/j.1528-1157.1997.tb01480.x",
+   "https://pure.eur.nl/en/publications/e7297f3e-1e0d-46f4-a1be-2ee0a1404bb0",
+   "http://hdl.handle.net/1765/5776",
+   "http://repub.eur.nl/pub/5776",
+   "http://hdl.handle.net/2066/24373"
+  ]
+ },
+ "149": {
+  "pmid": "8451773",
+  "doi": "10.1097/00007691-199302000-00001",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "150": {
+  "pmid": "10553991",
+  "doi": "10.1002/1531-8249(199911)46:5,739::aid-ana9.3.0.co;2-2",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "151": {
+  "pmid": "10487185",
+  "doi": "10.1111/j.1528-1157.1999.tb00851.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "152": {
+  "pmid": "10094426",
+  "doi": "10.1016/s0920-1211(98)00084-9",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "153": {
+  "pmid": "6781455",
+  "doi": "10.1001/archneur.1981.00510030034003",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "154": {
+  "pmid": "10706358",
+  "doi": "10.1002/(sici)1096-8628(20000228)90:5,376::aid-ajmg6.3.0.co;2-v",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "155": {
+  "pmid": "6772753",
+  "doi": "10.1016/s0022-3476(80)80517-8",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "156": {
+  "pmid": "6417292",
+  "doi": "10.1016/s0022-3476(83)80750-1",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://doi.org/10.1016/s0022-3476(83)80750-1"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://doi.org/10.1016/s0022-3476(83)80750-1"
+  ]
+ },
+ "157": {
+  "pmid": "11758141",
+  "doi": "10.1007/BF02722604",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "158": {
+  "pmid": "3123693",
+  "doi": "10.1136/jmg.24.11.692",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://jmg.bmj.com/content/jmedgenet/24/11/692.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1050348",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://jmg.bmj.com/content/jmedgenet/24/11/692.full.pdf",
+   "https://doi.org/10.1136/jmg.24.11.692",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC1050348/pdf/jmedgene00085-0044.pdf",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1050348",
+   "http://jmg.bmjjournals.com/cgi/content/abstract/24/11/692",
+   "https://europepmc.org/articles/PMC1050348",
+   "https://europepmc.org/articles/PMC1050348?pdf=render"
+  ]
+ },
+ "159": {
+  "pmid": "3125743",
+  "doi": "10.1002/ajmg.1320290123",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://doi.org/10.5167/uzh-237871"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://doi.org/10.5167/uzh-237871"
+  ]
+ },
+ "160": {
+  "pmid": "2248297",
+  "doi": "10.1002/ajmg.1320370224",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "161": {
+  "pmid": "11223853",
+  "doi": "10.1002/1096-8628(20010115)98:2,168::aid-ajmg1026.3.0.co;2-o",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "162": {
+  "pmid": "9344057",
+  "doi": "10.1111/j.1469-8749.1997.tb07500.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "163": {
+  "pmid": "10882750",
+  "doi": "10.1136/jmg.37.7.489",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://jmg.bmj.com/content/jmedgenet/37/7/489.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1734633",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://jmg.bmj.com/content/jmedgenet/37/7/489.full.pdf",
+   "https://doi.org/10.1136/jmg.37.7.489",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1734633",
+   "https://europepmc.org/articles/PMC1734633",
+   "https://europepmc.org/articles/PMC1734633?pdf=render"
+  ]
+ },
+ "164": {
+  "pmid": "11769274",
+  "doi": "10.1017/s0012162201211542",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "165": {
+  "pmid": "11263692",
+  "doi": "10.1111/j.1469-8749.2001.tb00188.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8749.2001.tb00188.x"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8749.2001.tb00188.x",
+   "https://doi.org/10.1111/j.1469-8749.2001.tb00188.x"
+  ]
+ },
+ "166": {
+  "pmid": "2113015",
+  "doi": "10.1111/j.1469-8749.1990.tb16959.x",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "167": {
+  "pmid": "11118242",
+  "doi": "10.1136/jnnp.70.1.15",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://jnnp.bmj.com/content/jnnp/70/1/15.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1763464",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://jnnp.bmj.com/content/jnnp/70/1/15.full.pdf",
+   "https://doi.org/10.1136/jnnp.70.1.15",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1763464",
+   "https://europepmc.org/articles/PMC1763464",
+   "https://europepmc.org/articles/PMC1763464?pdf=render"
+  ]
+ },
+ "168": {
+  "pmid": "9785701",
+  "doi": "10.1016/s0140-6736(70)90636-7",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1188938"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1188938",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1188938",
+   "https://europepmc.org/articles/PMC1188938",
+   "https://europepmc.org/articles/PMC1188938?pdf=render"
+  ]
+ },
+ "169": {
+  "pmid": "4189292",
+  "doi": "10.1016/s0140-6736(70)90636-7",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "170": {
+  "pmid": "8215567",
+  "doi": "10.1136/adc.69.3_spec_no.288",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://adc.bmj.com/content/archdischild/69/3_Spec_No/288.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1029494",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://adc.bmj.com/content/archdischild/69/3_Spec_No/288.full.pdf",
+   "https://doi.org/10.1136/adc.69.3_spec_no.288",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1029494",
+   "https://europepmc.org/articles/PMC1029494",
+   "https://europepmc.org/articles/PMC1029494?pdf=render"
+  ]
+ },
+ "171": {
+  "pmid": "10952707",
+  "doi": "10.1136/fn.83.2.f124",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://fn.bmj.com/content/fetalneonatal/83/2/F124.full.pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC1721144",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://fn.bmj.com/content/fetalneonatal/83/2/F124.full.pdf",
+   "https://doi.org/10.1136/fn.83.2.f124",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/1721144",
+   "https://europepmc.org/articles/PMC1721144",
+   "https://europepmc.org/articles/PMC1721144?pdf=render"
+  ]
+ },
+ "173": {
+  "pmid": "26407790",
+  "doi": "10.1002/wps.20252",
+  "full_text_status": "In PMC, but publisher blocks full-text download (readable on PMC website)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.20252"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "Y",
+   "pmcid": "PMC4592657",
+   "hasPDF": "Y"
+  },
+  "candidates": [
+   "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.20252",
+   "https://doi.org/10.1002/wps.20252",
+   "https://kclpure.kcl.ac.uk/portal/en/publications/b867552c-3ba5-475f-a4cc-ef8de1d7b1dc",
+   "https://lirias.kuleuven.be/retrieve/4ebc557b-df99-4cf1-8922-6f0d8f1c4d52",
+   "https://lirias.kuleuven.be/handle/123456789/533160",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/4592657",
+   "https://europepmc.org/articles/PMC4592657",
+   "https://europepmc.org/articles/PMC4592657?pdf=render"
+  ]
+ },
+ "174": {
+  "pmid": "25189088",
+  "doi": "10.1517/14740338.2014.931368",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "175": {
+  "pmid": "33243714",
+  "doi": "10.1016/j.schres.2020.11.021",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://kclpure.kcl.ac.uk/portal/en/publications/efef2359-0c6b-4cef-a594-65c1ca19a4cc"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://kclpure.kcl.ac.uk/portal/en/publications/efef2359-0c6b-4cef-a594-65c1ca19a4cc"
+  ]
+ },
+ "176": {
+  "pmid": "35320739",
+  "doi": "10.1016/j.jpsychires.2022.03.013",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S0022395622001376/pdf"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://www.sciencedirect.com/science/article/pii/S0022395622001376/pdf",
+   "https://doi.org/10.1016/j.jpsychires.2022.03.013",
+   "https://www.research.ed.ac.uk/files/257856856/1_s2.0_S0022395622001376_main.pdf",
+   "https://www.research.ed.ac.uk/en/publications/b37479af-82b5-489b-977b-b76ad537d407"
+  ]
+ },
+ "177": {
+  "pmid": "31623458",
+  "doi": "10.1176/appi.ajp.2019.19030228",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "178": {
+  "pmid": "31846540",
+  "doi": "10.1002/jum.15188",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": true,
+   "oa_status": "bronze",
+   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jum.15188"
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": [
+   "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jum.15188",
+   "https://doi.org/10.1002/jum.15188"
+  ]
+ },
+ "179": {
+  "pmid": "16263858",
+  "doi": "10.1176/appi.ajp.162.11.2162",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "181": {
+  "pmid": "27297617",
+  "doi": "10.1111/bdi.12398",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ },
+ "49": {
+  "pmid": "27609245",
+  "doi": "10.1176/appi.ajp.2016.16040454",
+  "full_text_status": "PubMed abstract only (no PMC full text)",
+  "openalex": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null
+  },
+  "europepmc": {
+   "isOpenAccess": "N",
+   "inEPMC": "N",
+   "pmcid": null,
+   "hasPDF": "N"
+  },
+  "candidates": []
+ }
+}

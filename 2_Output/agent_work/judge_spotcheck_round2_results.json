@@ -1,0 +1,114 @@
+[
+ {
+  "ref_id": "4",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "Yes",
+  "flag_reason": "[Low priority - N ambiguity] Codes confirmed. It is a crude, descriptive screening study (chi-square only), so code 5 comes before the authors' 'sequential case series' label. There is no adjustment and no sibling analysis. The paper has three co-equal aims with different denominators. Onset timing and diagnoses use the 826 SCID-assessed women. Self-harm ideation, which is in the title, uses the 10,000 screened (3.2%) and the 1,396 screen-positive (19.3%). 826 is the best fit: the Conclusions rest on the diagnoses, and Amendment 2.2 excludes broader descriptive samples. The PI may still want to confirm, since 826 vs 10,000 is an order-of-magnitude difference."
+ },
+ {
+  "ref_id": "90",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The race-by-epoch interaction has a difference-in-differences shape, but White patients also received the collaborative care model. So there is no unexposed concurrent control, the protocol's pre/post rule applies, and code 4 is correct (not quasi-experimental). The propensity score includes only presence of a mental-health history (no severity). The primary outcome (antenatal screening) is modeled in all 4,710."
+ },
+ {
+  "ref_id": "91",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The authors' 'case series' label doesn't fit code 9. The cases are deaths (outcome cases), not exposed cases, and the paper reports population mortality ratios plus a crude comparison with all live births (Table 2), so code 5 applies first. The abstract's stated objective is the decedents' characteristics, which rest on the 59 women with records. The 63 self-harm deaths feed only the mortality ratios."
+ },
+ {
+  "ref_id": "95",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The adjusted Cox model (Table 2) itself contains the severity measures: number of prior episodes, onset before age 14, prior hospitalizations for depression, and an MDE in the 6 months before pregnancy. So severity does not rest only on the authors' 'correlates of severe depressive illness' wording. N = 778 is the analytic sample. No sibling or within-mother analysis."
+ },
+ {
+  "ref_id": "110",
+  "spotcheck_agrees": "No",
+  "concern": "sample_size_n: use 722830. study_type, severity (the PS explicitly includes 'proxies for depression severity', i.e., counts of inpatient and outpatient depression diagnoses) and sibling = No are all confirmed. The main estimate is the SSRI-vs-unexposed, depression-restricted, hdPS-stratified OR of 1.10. SSRI and non-SSRI were separate contrasts with separate PS-stratified cohorts (Table 3). So 739114 is wrong: it is the Table 2 depression-restricted cohort including the 16,283 non-SSRI users, who are not in the SSRI model. 722831 (65,316 + 657,515 in Table 2) is the count before PS trimming. 722830 (65,315 + 657,515 in Table 3) is the analytic sample after uninformative PS strata were dropped. This matches the PI's T2a override, which used the post-trimming Table 1 counts (36,778, not 36,783).",
+  "recommended_sample_size_n": 722830,
+  "flag_for_human": "Yes",
+  "flag_reason": "[Minor - N] Raters split three ways. The 1-pregnancy gap between 722830 and 722831 doesn't matter in practice, but 739114 is the wrong concept. Caveat: Table 3 gives the N for the investigator-specified PS model. The hdPS-stratified N behind the headline OR of 1.10 is not reported separately, so 722830 is the closest reported figure."
+ },
+ {
+  "ref_id": "111",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "Yes",
+  "flag_reason": "[Design straddle, codes 4/5] Severity = No, sibling = No and N = 214 are confirmed. SIGH-ADS was compared descriptively, not modeled, and the Mood Disorder group is defined by diagnosis alone. But every effect estimate the paper reports is crude (chi-square/CMH). The logistic model adjusting for preterm birth, race and age is reported only as P values ('results not shown'), and the Methods describe the crude group comparison as the primary analysis. Code 4 depends on reading Amendment 2.2's 'fully adjusted, if adjusted' as also governing study_type; read strictly as 'primary analysis', it would be code 5. I don't disagree, but the PI should set one rule and apply it to both ref 111 and ref 142."
+ },
+ {
+  "ref_id": "116",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. Double-blind, placebo-controlled RCT. The primary analysis compares response rates in the 36-woman ITT sample (17 sertraline, 19 placebo). 38 entered the placebo lead-in and 2 were removed before randomization. Severity = NA and sibling = No are correct for an RCT."
+ },
+ {
+  "ref_id": "129",
+  "spotcheck_agrees": "No",
+  "concern": "sample_size_n: use 71931, not 93436. study_type, severity = No and sibling = No are confirmed. The case-control analysis precedes code 7 in the decision order, and the review only generated hypotheses. Severity is No because the authors had no data on epilepsy type or seizure frequency. 93,436 is the whole case-control dataset: all 5 case groups plus both control groups (it is the denominator in 516/93,436 AED-exposed). The raters themselves name the main estimate as the spina bifida OR of 2.6 vs no AED, using non-chromosomal controls. That model contains 2,048 spina bifida cases + 69,883 control-group-1 registrations = 71,931 (Table 4). The true analytic N is somewhat smaller and not reported. The registry-adjusted model dropped registries with no carbamazepine exposure, and registrations exposed to other AEDs drop out of the CBZ-vs-no-AED contrast. So treat 71,931 as an upper bound.",
+  "recommended_sample_size_n": 71931,
+  "flag_for_human": "Yes",
+  "flag_reason": "[Disagree - N; design straddle, codes 4/7] (1) N, as above. If the PI treats all five malformation groups x two control groups as one co-primary analysis, 93,436 could stand. That needs a PI convention, kept consistent with the single-headline-contrast rule already applied to T2a and ref 110. (2) The design straddles case-control and review/pooled analysis. PubMed indexes it as a Systematic Review, the title and abstract present both parts, and the Conclusions cite the review's pooled 3.3% major-malformation prevalence alongside the case-control OR. Code 4 is correct under the decision order, but the dual design is worth recording."
+ },
+ {
+  "ref_id": "134",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. Purely descriptive prevalence and trend study, with the 585,615 qualifying deliveries as the denominator for every prevalence estimate. No effect estimate, no adjustment, no sibling analysis. Minor: there is no treated-vs-untreated effect comparison, so severity = NA would also be defensible under the protocol's NA rule. The raters' No matches the round-1 majority for descriptive studies."
+ },
+ {
+  "ref_id": "142",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "Yes",
+  "flag_reason": "[Design straddle, codes 3/5] Severity = Yes rests on the model, not only on an author claim: Models II and III enter SIGH-ADS and Mania Rating Scale symptom scores (Table 2). Sibling = No and N = 197 dyads are also confirmed. The fully adjusted model's dyad count isn't reported; its denominator df drop from 253 to 234. But the only positive finding in the abstract and Conclusions (Motor Quality, P = .0441) comes from unadjusted Model I. It became non-significant once the symptom scores were added (P = .0529). Model III also used postbirth symptom scores, which may act as mediators rather than baseline confounders. So code 3 describes the fully adjusted models, not the paper's headline claim. Apply the same rule as for ref 111."
+ },
+ {
+  "ref_id": "T2a",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The main estimate restricts to women with depression and stratifies on a PS containing 'proxies for depression severity' (counts of depression diagnoses). The robust variance for repeat pregnancies is not a within-mother analysis, and the authors omitted it anyway. N 217,342 = 36,778 SSRI + 180,564 unexposed after PS trimming (Table 1), matching the existing PI override."
+ },
+ {
+  "ref_id": "T2c",
+  "spotcheck_agrees": "Yes",
+  "concern": "Minor, outside the four checked fields: rater3's sample_size_unit should be 'pregnancies', not 'women'. The GEE uses robust variance for repeat pregnancies, and raters 1 and 2 use pregnancies.",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The primary estimates come from one fully adjusted GEE that includes outpatient and inpatient depression-diagnosis counts ('proxies of depression severity'). The Table 2 groups sum to 85,767, which equals 100,942 minus the 15,175 first-trimester-only users. Robust variance only; no sibling or within-mother contrast."
+ },
+ {
+  "ref_id": "T2d",
+  "spotcheck_agrees": "Yes",
+  "concern": "",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. Active-comparator design (continuers vs discontinuers among prior users) with IPTW. The weights include inpatient psychiatric hospitalization, psychiatry and psychotherapy visits, and psychotropic fills, itemized in Table 1, so severity does not rest on the authors' statement alone. GEE handles repeat births; there is no within-mother contrast. About 4% with missing covariates were excluded (≈2,730 analyzed), but the exact complete-case N isn't reported. Reporting 2,845 with that note in sample_size_detail is the protocol's fallback."
+ },
+ {
+  "ref_id": "T2f",
+  "spotcheck_agrees": "Yes",
+  "concern": "Minor, outside the four checked fields: rater3's sample_size_unit should be 'pregnancies', not 'women'. The GEE uses robust variance for repeat pregnancies, and raters 1 and 2 use pregnancies.",
+  "recommended_sample_size_n": null,
+  "flag_for_human": "No",
+  "flag_reason": "Codes confirmed. The primary estimates come from one fully adjusted GEE that includes the 'proxies of mood/anxiety disorder severity' (outpatient and inpatient diagnosis counts). The Table 2 groups (69,044 + 29,222 + 4,456) sum to 102,722, which equals 106,000 minus the 3,278 polytherapy users. Robust variance only; no within-mother contrast."
+ }
+]

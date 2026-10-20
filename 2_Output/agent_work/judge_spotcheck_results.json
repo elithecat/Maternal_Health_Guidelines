@@ -1,0 +1,135 @@
+[
+  {
+    "ref_id": "90",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "95",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "100",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: the aPR covariates are not listed, so the excl.-severity/Unclear code is the Amendment 1(a) default. Sibling = No is justified because an individual-level cross-sectional survey cannot support a within-family contrast."
+  },
+  {
+    "ref_id": "110",
+    "spotcheck_agrees": "Yes",
+    "concern": "No change. N = 739114 (depression-restricted cohort behind the PS/hdPS estimates) correctly follows the protocol's analytic-sample rule. Note that the companion Huybrechts paper (T2a) was coded with its full cohort instead, so the two need harmonizing.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Sample size is ambiguous: full eligible cohort 3789330 pregnancies vs the 739114 depression-restricted cohort behind the main adjusted ORs (PS strata trimming drops a few more). Pick one convention and apply it to both 110 and T2a."
+  },
+  {
+    "ref_id": "115",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "116",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "T2a",
+    "spotcheck_agrees": "No",
+    "concern": "sample_size_n: 949504 is the full source cohort, but the main (fully adjusted, depression-restricted, PS-stratified) SSRI estimate rests on 36778 SSRI-exposed vs 180564 unexposed = 217342. Under the protocol's analytic-sample rule, and for consistency with ref 110 (coded with its restricted cohort), N should be 217342. The all-class restricted total is not reported. Study type, severity (explicit 'proxies for depression severity') and sibling are correct.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Sample size: full cohort vs the restricted cohort behind the main adjusted estimate, and the convention is inconsistent with ref 110."
+  },
+  {
+    "ref_id": "T2c",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "T2d",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "T2f",
+    "spotcheck_agrees": "Yes",
+    "concern": "Minor and not a checked field: unit is 'women', but GEE with robust variance for repeat pregnancies makes pregnancies the analysis unit, and T2c (same authors, same design) was coded 'pregnancies'. Harmonize if units matter downstream.",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "129",
+    "spotcheck_agrees": "Yes",
+    "concern": "No change. Coding on the hypothesis-testing case-control (code 4 comes before code 7) is right, and the adjustment set (maternal age, birth year, registry) has no epilepsy-severity measure. Note that N = 93436 sums all five case groups and both control groups; the headline spina bifida OR uses a subset, and 82 cases sit in two subgroups.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Design genuinely straddles systematic review and case-control (title and PubMed 'Systematic Review'); the first-fit order settles it. N is the total registrations across all case/control groups, not the N behind the headline OR."
+  },
+  {
+    "ref_id": "136",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "137",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "138",
+    "spotcheck_agrees": "Yes",
+    "concern": "",
+    "flag_for_human": "No",
+    "flag_reason": ""
+  },
+  {
+    "ref_id": "142",
+    "spotcheck_agrees": "Yes",
+    "concern": "No change under the first-fit rule: Models II-III, part of the main mixed-model analysis, adjust for SIGH-ADS and MRS symptom scores. However, the abstract's only positive finding (BD+ Motor Quality, P=.0441) comes from unadjusted Model I and became non-significant (P=.0529) after symptom adjustment.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[High priority] Design straddles codes 3 and 5: the incl.-severity code describes the paper's model set, but the headline result ACOG may rely on is the unadjusted estimate."
+  },
+  {
+    "ref_id": "145",
+    "spotcheck_agrees": "No",
+    "concern": "sibling_analysis_any: should be Unclear, not No. The abstract-only file describes a prospective study in women with epilepsy and cannot exclude a within-mother/sibling comparison, which was common in early AED teratology work; this is the rule applied to the Part A sibling disputes. Also, N = 168 sums 26 exposed, 26 matched-pair controls and 116 additional controls, while the matched comparison involves only 52. Study type (matching counts as adjustment under Amendment 1(b)) and severity Unclear are fine.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: matching variables not shown (severity Unclear); sample size ambiguous (168 total vs 52 matched); sibling should be Unclear under the abstract-only rule."
+  },
+  {
+    "ref_id": "150",
+    "spotcheck_agrees": "No",
+    "concern": "sibling_analysis_any: should be Unclear, not No. 1411 children born over 20 years (1972-1992) to mothers with epilepsy almost certainly include siblings, and an abstract cannot exclude a within-mother sensitivity analysis. Study type (matched controls = adjustment), severity Unclear and N 3411 are fine. The comparator is nonepileptic, so drug and epilepsy effects are confounded whatever the matching factors.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: matching variables not shown (severity Unclear); sibling should be Unclear under the abstract-only rule."
+  },
+  {
+    "ref_id": "154",
+    "spotcheck_agrees": "Yes",
+    "concern": "No change. Sibling = No is defensible because the case-control samples unrelated malformed and control infants. N = 44231 (all malformed infants plus controls with AED data) is the case-control base; the limb-deficiency OR uses limb-deficiency cases (count not in abstract) vs controls.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: confounders 'controlled for' are not listed (severity Unclear), and N may be overstated relative to the limb-deficiency analysis."
+  },
+  {
+    "ref_id": "175",
+    "spotcheck_agrees": "Yes",
+    "concern": "No change. The PS-weighted cohort comparison is the primary analysis (the meta-analysis is an add-on), and sibling = No is justified by the restriction to first pregnancies.",
+    "flag_for_human": "Yes",
+    "flag_reason": "[Routine] Abstract-only: PS covariates not listed (severity Unclear). The paper also straddles cohort vs meta-analysis (PubMed: Meta-Analysis; Review)."
+  }
+]

@@ -1,0 +1,41 @@
+{
+ "n_citations": 126,
+ "n_with_any_disagreement": 15,
+ "percent_agreement": {
+  "study_type": 97.6,
+  "severity_adjustment": 96.0,
+  "sibling_analysis_any": 93.7,
+  "sample_size_n": 99.2
+ },
+ "fleiss_kappa": {
+  "study_type": 0.982,
+  "severity_adjustment": 0.942,
+  "sibling_analysis_any": 0.614
+ },
+ "disputed_field_counts": {
+  "severity_adjustment": 5,
+  "sibling_analysis_any": 8,
+  "study_type": 3,
+  "sample_size_n": 1
+ },
+ "sample_size_tolerance": 0.1,
+ "round2_refs": [
+  "110",
+  "111",
+  "116",
+  "120",
+  "129",
+  "134",
+  "142",
+  "173",
+  "4",
+  "90",
+  "91",
+  "95",
+  "T2a",
+  "T2c",
+  "T2d",
+  "T2f"
+ ],
+ "round2_with_disagreement": 0
+}
