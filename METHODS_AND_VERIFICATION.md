@@ -2,18 +2,21 @@
 
 **Guideline:** ACOG Clinical Practice Guideline No. 5, *Treatment and Management of Mental Health Conditions During Pregnancy and Postpartum*, Obstet Gynecol 2023;141:1262–88.
 **Question:** For each recommendation, what kinds of studies does ACOG cite (RCTs, sibling designs, observational studies adjusted for observables with or without depression severity) and how large are they?
-**Status:** AI-coded; not yet verified by a human. Prepared 2026-10-13.
+**Status:** AI-coded; not yet verified by a human. Prepared 2026-10-13; updated 2026-10-20 after the PI's Amendment 2 decisions and a round-2 full-text re-code.
+**Repository:** [github.com/elithecat/Maternal_Health_Guidelines](https://github.com/elithecat/Maternal_Health_Guidelines) (public). The guideline PDF, its extracted text, and the article abstracts/full texts are copyrighted, so they're kept locally and left out of the public repo; `1_Scripts/02_fetch_papers.py` rebuilds `0_Data/papers/` from NCBI.
 
 ## Where things are
 
 | Path | Contents |
 |---|---|
 | `0_Data/citation_map.json` | 17 recommendations → 126 unique citations (137 rec–citation links), with PMID/PMCID/DOI and full-text status |
-| `0_Data/papers/` | One markdown file per citation: ACOG citation as printed, PubMed metadata and abstract, and full text with tables when available |
-| `0_Data/missing_full_text.md` | The 99 citations without stored full text, grouped by reason, with links |
-| `0_Data/raw_xml/` | PubMed and PMC XML exactly as downloaded |
-| `coding_protocol.md` | The codebook all raters and the judge followed (with Amendment 1) |
-| `1_Scripts/` | Pipeline: parse references → map citations to recommendations → fetch papers → batch → find disagreements → build spreadsheets |
+| `0_Data/papers/` *(local only)* | One markdown file per citation: ACOG citation as printed, PubMed metadata and abstract, and full text with tables when available |
+| `0_Data/missing_full_text.md` | The 97 citations without stored full text, grouped by reason, with links |
+| `0_Data/fulltext_needed.md` | The 27 comparative studies still coded from abstracts, with links, for library retrieval |
+| `0_Data/raw_xml/`, `0_Data/oa_pdf/` *(local only)* | PubMed/PMC XML and open-access PDFs exactly as downloaded |
+| `coding_protocol.md` | The codebook all raters and the judge followed (with Amendments 1 and 2) |
+| `1_Scripts/` | Pipeline: parse references → map citations to recommendations → fetch papers → batch → find disagreements → build spreadsheets; `06`–`08` find, fetch, and ingest open-access or library PDFs |
+| `2_Output/agent_work/` | Every rater, judge, and override file, round 1 and round 2 (audit trail) |
 | `2_Output/Rater{1,2,3}_coding.xlsx` | Each rater's codes for all 126 citations |
 | `2_Output/Judge_adjudication.xlsx` | Adjudicated disagreements, plus the judge's spot-check of unanimous comparative studies |
 | `2_Output/Compiled_evidence_coding.xlsx` | Final codes, recommendation-level summary, rater comparison, and the human-verification worksheet |
@@ -24,6 +27,8 @@
 
 ### 1. Project setup
 The request was to start from the CLAUDE.md in the "setup" GitHub repo. No such file was reachable. The public `abilinski/claude-code-docker-setup` repo has only an example inside its README. The `elithecat` account has CLAUDE.md files in five project repos but no setup repo; a private one would return 404 (as `elithecat/setup` does), and this machine has no GitHub credentials. I followed the folder convention from `elithecat/SA_Prep_Power` (`0_Data/`, `1_Scripts/`, numbered outputs), which matches the requested `0_Data`. **Open item:** send the intended CLAUDE.md and I'll reconcile the project against it.
+
+The project was first pushed as a private repo with everything in it. When it was made public, I replaced its history with a single commit that never contained the copyrighted files. The repo holding the old history was renamed `elithecat/Maternal_Health_Guidelines_old_private` and kept private, and a local `_backup_full_history.bundle` holds the same history.
 
 ### 2. Recommendations and their citations
 - I extracted the PDF text column by column (pdfplumber) because the two-column layout scrambles plain extraction. Output: `0_Data/acog_cpg5_text_by_column.txt`.
@@ -52,15 +57,17 @@ The request was to start from the CLAUDE.md in the "setup" GitHub repo. No such 
 - **Conversion:** each XML record became markdown with sections, tables, and figure captions.
 - **What we have:**
 
+- **Open-access search (round 2):** for the 86 PubMed-indexed citations still lacking full text, I queried OpenAlex and Europe PMC for legal open-access copies. 27 had one listed. Only 2 downloaded as real PDFs: ref 120 (UCL repository) and ref 173 (KU Leuven repository, the official Spanish-language edition of the article). The rest were publisher copies that return 403 to scripts, or landing pages. PMC website pages weren't scraped, because PMC disallows automated retrieval of non-open-access articles.
+
 | Status | n |
 |---|---|
-| Full text stored (PMC) | 27 |
-| In PMC, but the publisher blocks machine download (readable on the PMC website) | 11 |
-| PubMed record only (abstract; some letters have no abstract) | 73 |
+| Full text stored (PMC XML 27, open-access PDF 2) | 29 |
+| In PMC, but the publisher blocks machine download (readable on the PMC website) | 10 |
+| PubMed record only (abstract; some letters have no abstract) | 72 |
 | NCBI Bookshelf report (AHRQ ref 52, NICE ref 76) | 2 |
 | Not indexed in PubMed | 13 |
 
-Everything without full text is listed with links in `0_Data/missing_full_text.md`.
+Everything without full text is listed with links in `0_Data/missing_full_text.md`. Of the 41 comparative or observational studies, 14 have full text; the other 27 are listed in `0_Data/fulltext_needed.md`. Library retrieval of those 27 is pending, using `08_ingest_manual_pdfs.py` or a connected Claude in Chrome session.
 
 ### 5. Coding
 - **Protocol:** `coding_protocol.md` defines 15 mutually exclusive `study_type` codes, taken in a fixed decision order. The four the request asked about come first:
@@ -78,6 +85,11 @@ Everything without full text is listed with links in `0_Data/missing_full_text.m
   - (b) it isn't stated whether estimates are adjusted → "unadjusted/descriptive" + severity `Unclear` + Low confidence.
 
   The compiled sheet keeps these apart as "adjusted, severity unclear" and "adjustment unclear."
+- **Amendment 2 (PI decisions after round 1):**
+  1. Sibling analysis is determined from the **full text**. If the full text can't be obtained, it is `Unclear` and flagged for retrieval.
+  2. Sample size is the N behind the paper's **main estimate** (the analytic sample of the primary, fully adjusted estimate). The source cohort goes in the detail field.
+  3. An author's explicit statement that the analysis controlled for illness severity counts as severity adjustment.
+- **Round 2:** three fresh rater instances re-coded, blind and from full text, the 16 citations with full text: the 14 comparative or observational studies, plus the 2 reviews that gained open-access text. Round-2 codes replace round-1 codes for those citations; both are kept in `2_Output/agent_work/`. The 27 abstract-only comparative studies will be re-coded the same way once their full texts are in.
 
 ### 6. Agreement and adjudication
 - **What counts as a disagreement:** a citation is disputed if the raters differ on `study_type`, `severity_adjustment`, or `sibling_analysis_any`, or if their Ns are more than 10% apart (or one is missing). For reviews, the number of included studies is also compared.
@@ -89,18 +101,27 @@ Everything without full text is listed with links in `0_Data/missing_full_text.m
 
 | Field | % agreement | Fleiss' κ |
 |---|---|---|
-| Study type | 96.8 | 0.976 |
-| Severity adjustment | 96.0 | 0.938 |
+| Study type | 97.6 | 0.982 |
+| Severity adjustment | 96.0 | 0.942 |
 | Any sibling analysis | 93.7 | 0.614 |
 | Sample size (±10%) | 99.2 | — |
 
-16 citations had at least one disagreement. Sibling analysis had the lowest agreement (κ = 0.61). Every rater coded near-identical abstract-only register studies both `No` and `Unclear`.
+These figures use the round-2 codes for the 16 re-coded citations and round-1 codes for the rest. In round 1, 16 citations had at least one disagreement. Round 2 resolved one of them (ref 111), leaving 15. In round 2 itself, the three raters agreed on every compared field for all 16 citations. Sibling analysis had the lowest agreement (κ = 0.61). Every rater coded near-identical abstract-only register studies both `No` and `Unclear`.
 
 **Adjudication:** the judge made 18 decisions on disputed fields across the 16 citations. It went with the rater majority 14 times and with a minority rater 4 times (refs 58, T2i and 148 on sibling; 141 on severity), and never chose a value no rater gave. It flagged all 16 for human review, mainly because 15 of them are abstract- or citation-only.
 
 **Spot-check:** of the 19 unanimously coded comparative studies, the judge agreed with 16 and disputed 3, and flagged 9. As the protocol requires, the spot-check changed no codes; the disputes are flagged for a human:
 - **T2a** (Huybrechts 2014): N should be the depression-restricted analytic sample (217,342) rather than the full cohort (949,504). That would match the convention the raters used for ref 110.
 - **145, 150:** sibling analysis should be `Unclear`, not `No`, for abstract-only cohorts of births to mothers with epilepsy.
+
+**Round-2 spot-check:** the judge re-checked the 14 re-coded comparative studies against full text.
+- **Held up:** study type, severity, and sibling codes for all 14. Robust-variance or GEE corrections for repeat pregnancies (refs T2a, T2c, T2d, T2f) are clustering, not within-mother contrasts.
+- **Disputed (2 sample sizes):**
+  - **Ref 110:** 722,830, the post-trimming SSRI contrast, rather than the raters' median of 722,831.
+  - **Ref 129:** 71,931, the spina bifida comparison behind the main OR, rather than 93,436 for the whole case-control dataset.
+- **Flagged without dispute:**
+  - Refs 111 and 142: an adjusted model exists, but the headline result is unadjusted.
+  - Ref 4: different aims use different denominators.
 
 ### 7. Flags for human review
 A citation is flagged (yellow in the spreadsheets) when any of these holds:
@@ -111,7 +132,7 @@ A citation is flagged (yellow in the spreadsheets) when any of these holds:
 - it is a comparative study coded without full text;
 - its PubMed title matches the ACOG citation poorly.
 
-**34 of 126 citations are flagged.** Most are comparative or observational studies coded from abstracts.
+**34 of 126 citations are flagged.** Most are comparative or observational studies coded from abstracts; the rest are the judge's round-2 sample-size and design questions.
 
 ### 8. Preliminary results (unverified)
 Final codes for the 126 citations:
@@ -130,22 +151,31 @@ Final codes for the 126 citations:
 
 What stands out:
 - **Very few RCTs.** Only 2 are perinatal: the postpartum sertraline trials under R7 (refs 115, 116). The other 3 test quetiapine/lithium in general-population bipolar depression (R11).
-- **No sibling designs.** No citation uses a sibling or within-family design as its main analysis. None has a confirmed sibling sensitivity analysis either (11 are `Unclear`).
+- **No sibling designs.** No citation uses a sibling or within-family design as its main analysis. None of the 14 comparative studies read in full text has a sibling sensitivity analysis; 11 abstract-only studies remain `Unclear` until their full text is read.
+- **Main-estimate Ns (Amendment 2)** changed three sample sizes:
+  - Ref T2a: 949,504 → 217,342 (depression-restricted SSRI contrast).
+  - Ref 110: 739,114 → 722,831 (SSRI contrast).
+  - Ref 4: 10,000 screened → 826 diagnostically assessed.
 - **Severity adjustment is concentrated in R7.** Six of the 8 severity-adjusted studies support R7. Five are claims-based cohorts using severity proxies (refs 110, T2a, T2c, T2d, T2f). The sixth, ref 58, is abstract-only, and its severity code rests on the authors' claim. The other two are ref 95 (R5) and ref 142 (R11).
 - **R12 rests on older observational data.** R12 (valproate, 27 citations) has no full text stored and no severity-adjusted study. Its support is case reports, descriptive cohorts, and epilepsy cohorts whose adjustment can't be verified from the abstracts.
 
 Recommendation-level counts are in the `Rec_summary` sheet.
 
-### Decisions for the PI before human verification
-The judge raised three points of protocol interpretation. Settle them first, as Amendment 2:
-1. **Sibling field when an abstract is silent.** The judge proposes `Unclear` unless the design rules out a within-family comparison (RCT, case report, cross-sectional, unrelated case-control, first pregnancies only). This would change several unanimous `No` codes, e.g., 127, 141, 145, 150, 151, 152, 166.
-2. **N convention for restricted cohorts.** Should N be the full source cohort or the diagnosis-restricted sample behind the main adjusted estimate? Refs 110 and T2a currently disagree (739,114 restricted vs 949,504 full).
-3. **Severity from an author's claim.** Ref 58 states it controlled for "maternal illness severity" without naming the measures. Under a strict reading of the protocol, it would be "adjusted, severity unclear."
+### Decisions for the PI
+**Resolved (Amendment 2, 2026-10-20):**
+- sibling analysis is taken from the full text;
+- N is the sample behind the main estimate;
+- author severity claims count, so ref 58 stays severity-adjusted.
+
+**Open, raised by the round-2 spot-check:**
+1. **Ref 129's main estimate.** Is it the spina bifida OR (N ≈ 71,931) or the whole case-control dataset (93,436)? The judge favors 71,931.
+2. **Ref 110:** 722,830 (post-trimming) vs 722,831. The difference is immaterial, but pick one for consistency.
+3. **Headline result unadjusted, adjusted model exists** (refs 111, 142). Should `study_type` follow the fully adjusted model, as now, or the headline analysis? Under the headline rule, 111 → unadjusted and 142 → unadjusted.
 
 ## Limitations, in order of importance
 
 1. **The raters are not independent the way human raters are.** All three are the same model reading the same file, so they make the same mistakes. On derived numbers (for example, an analytic N computed by subtracting an exclusion), all three often gave the identical figure. Read κ ≈ 0.98 as *consistency*, not as confirmation that the codes are right. A wrong code all three share produces no disagreement and never reaches the judge, which is why the judge spot-checks unanimous comparative studies and why the human audit below samples unflagged items too. A cheap improvement would be a fourth rater from a different model family.
-2. **Most coding rests on abstracts.** Only 27 of 126 citations have stored full text. For abstract-only observational studies, the severity call, and sometimes even whether the estimates are adjusted, often can't be made; those are coded `Unclear` and flagged. The 11 PMC-restricted papers and most of the 73 abstract-only ones can be read through a university library.
+2. **Much of the coding rests on abstracts.** Only 29 of 126 citations have stored full text, and 27 of the 41 comparative studies are still coded from abstracts. For those, the severity call, and sometimes whether the estimates are adjusted at all, often can't be made; they're coded `Unclear` and flagged. The 10 PMC-restricted papers and most of the 72 abstract-only ones can be read through a university library.
 3. **"Severity" for non-depression topics** (valproate in epilepsy, lithium, antipsychotics) was read as severity of that indication. That is a judgment call the user may want to revisit.
 4. **The unit of analysis differs across studies** (pregnancies, women, infants, admissions, studies), so Ns aren't comparable across rows. The recommendation summary gives the median and maximum N among comparative studies only, and never sums them.
 5. **Reviews are coded as reviews.** Systematic reviews and meta-analyses (30 citations) weren't unpacked into their component studies, so a recommendation backed mainly by meta-analyses of observational data shows few RCTs here even if a review contains some.
@@ -170,12 +200,12 @@ Both need university library access for the full texts that aren't stored here.
 
 ### What they work from
 - The `Human_verification` sheet in `2_Output/Compiled_evidence_coding.xlsx`. Green columns are for reviewer input.
-- `coding_protocol.md` and the paper files in `0_Data/papers/`.
+- `coding_protocol.md` and the paper files in `0_Data/papers/`. These are in the local project folder, not the public repo; anyone else regenerates them with `1_Scripts/02_fetch_papers.py`.
 
 ### Step 0: calibration (≈1 hour, both reviewers)
 - Both read `coding_protocol.md`.
 - Each independently codes five practice citations, one per major type: one RCT, one adjusted cohort with severity proxies, one abstract-only cohort, one systematic review, and one case series.
-- Discuss differences, and write down any rule clarifications as Amendment 2 before starting.
+- Discuss differences, and write down any rule clarifications as Amendment 3 before starting.
 
 ### Step 1: upstream checks (≈45 minutes, Reviewer A)
 1. **Citation mapping.** For each of the 17 recommendations, read the ACOG evidence section (PDF pp. 1269–81) and confirm that the reference list in the `Rec_x_Citation` sheet is complete and correct, including the Table 2 footnotes under R7.
@@ -219,11 +249,11 @@ Rough estimates:
 
 | Reviewer | Work | Hours |
 |---|---|---|
-| A | Calibration (1 h) + upstream checks (0.75 h) + 61 worksheet rows (37 comparative/observational × ~12 min, 24 other × ~4 min) | ≈ 11 |
-| B | Calibration (1 h) + 30% overlap (≈ 18 rows) | ≈ 4 |
-| **Total** | | **≈ 15 person-hours** |
+| A | Calibration (1 h) + upstream checks (0.75 h) + 62 worksheet rows (38 comparative/observational × ~12 min, 24 other × ~4 min) | ≈ 11 |
+| B | Calibration (1 h) + 30% overlap (≈ 19 rows) | ≈ 4–5 |
+| **Total** | | **≈ 15–16 person-hours** |
 
-The worksheet has 61 rows: 34 flagged (Tier 1), 10 unflagged comparative studies (Tier 2), and 17 drawn for the random audit (Tier 3, seed 20261013).
+The worksheet has 62 rows: 34 flagged (Tier 1), 11 unflagged comparative studies (Tier 2), and 17 drawn for the random audit (Tier 3, seed 20261013). If the 27 abstract-only comparative studies are retrieved and re-coded before human review, reviewer time per row drops, because the full text will already be in each paper file.
 
 ### The request to send a reviewer
 
@@ -233,7 +263,7 @@ The worksheet has 61 rows: 34 flagged (Tier 1), 10 unflagged comparative studies
 >
 > **What I'd ask you to do:**
 > 1. Read the 2-page coding protocol, then code 5 calibration papers. We'll compare notes for about 30 minutes.
-> 2. Work through the `Human_verification` sheet (61 rows) with the AI columns hidden. Code each paper from the full text (library access needed for most), then unhide and mark the AI code right or wrong.
+> 2. Work through the `Human_verification` sheet (62 rows) with the AI columns hidden. Code each paper from the full text (library access needed for most), then unhide and mark the AI code right or wrong.
 > 3. Spend 45 minutes confirming that the citation lists for the 17 recommendations match the guideline text.
 >
 > Everything is in one folder: protocol, paper files, links to full texts, and the spreadsheet. Estimated time is 11 hours; I'd like it back by [date]. You'll be acknowledged in any write-up. Could you do it?
